@@ -1,12 +1,15 @@
-# Smart Contract Vulnerability Dataset
+# Smart Contract Vulnerability Dataset for Solidity and Ethereum Security
 
-A large-scale dataset for smart contract vulnerability detection, vulnerability type classification, and vulnerable line localization.
+A large-scale Solidity smart contract vulnerability dataset for Ethereum security research, smart contract vulnerability detection, vulnerability type classification, vulnerable line localization, and LLM-based code security evaluation.
 
-Recommended repository name: `smart-contract-vuln-dataset`.
+Repository name: `smart-contract-vuln-dataset`.
 
-This repository draft is prepared for publishing processed benchmark data, normalized annotations, construction tools, and documentation used in research on open-source large language models for smart contract vulnerability detection.
+This repository publishes processed benchmark data, normalized annotations, construction tools, and documentation used in research on open-source large language models for smart contract vulnerability detection.
 
 Chinese version: [README.zh-CN.md](README.zh-CN.md).
+Dataset card: [DATASET_CARD.md](DATASET_CARD.md).
+
+Keywords: smart contract vulnerability dataset, Solidity vulnerability detection, Ethereum smart contract security, reentrancy detection dataset, smart contract bug localization, vulnerable line localization, vulnerability type classification, LLM code security benchmark, blockchain vulnerability detection, Web3 security dataset.
 
 ## Highlights
 
@@ -20,7 +23,15 @@ Chinese version: [README.zh-CN.md](README.zh-CN.md).
 - Multi-source construction pipeline with normalized staging data, merged data, and processed benchmark splits.
 - Reproducible tools for importing, normalizing, deduplicating, merging, splitting, and auditing data.
 
-To the best of our knowledge, this dataset is one of the largest publicly available smart contract vulnerability datasets that integrates vulnerability existence labels, vulnerability type labels, and line-level vulnerability annotations. Before using a stronger claim such as "the largest publicly available smart contract vulnerability dataset", please cite a public comparison table against existing datasets.
+To the best of our knowledge, this dataset is one of the largest publicly available smart contract vulnerability datasets that integrates vulnerability existence labels, vulnerability type labels, and line-level vulnerability annotations.
+
+## GitHub Topics
+
+Recommended repository topics:
+
+```text
+smart-contracts, solidity, ethereum, vulnerability-detection, smart-contract-security, blockchain-security, web3-security, dataset, llm, code-security, reentrancy, static-analysis, vulnerability-localization, benchmark
+```
 
 ## Tasks
 
@@ -190,11 +201,11 @@ If you use this dataset, please cite the dataset repository and the related pape
 
 ```bibtex
 @dataset{xu_smart_contract_vulnerability_dataset_2026,
-  title  = {A Large-Scale Smart Contract Vulnerability Dataset},
+  title  = {Smart Contract Vulnerability Dataset for Solidity and Ethereum Security},
   author = {Xu, Daming},
   year   = {2026},
   publisher = {GitHub},
-  url    = {https://github.com/<your-github-username>/smart-contract-vuln-dataset}
+  url    = {https://github.com/CoderDamien/smart-contract-vuln-dataset}
 }
 ```
 

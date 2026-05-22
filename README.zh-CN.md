@@ -1,10 +1,13 @@
-# 智能合约漏洞数据集
+# 面向 Solidity 与以太坊安全研究的智能合约漏洞数据集
 
-本仓库提供一个面向智能合约漏洞检测研究的大规模公开数据集，支持漏洞存在性判断、漏洞类型分类和漏洞行定位三类任务。数据集整合多个公开来源，并通过统一的标签空间、清洗规则、切分协议和元数据说明组织为可复现实验数据。
+本仓库提供一个面向 Solidity 智能合约和以太坊安全研究的大规模公开漏洞数据集，支持漏洞存在性判断、漏洞类型分类和漏洞行定位三类任务，可用于智能合约漏洞检测、Web3 安全分析、区块链漏洞检测和大语言模型代码安全评测。
 
 仓库名称：`smart-contract-vuln-dataset`。
 
 英文版本：[README.md](README.md)。
+数据集卡片：[DATASET_CARD.zh-CN.md](DATASET_CARD.zh-CN.md)。
+
+关键词：智能合约漏洞数据集、Solidity 漏洞检测、以太坊智能合约安全、重入漏洞检测、智能合约漏洞定位、漏洞行定位、漏洞类型分类、大语言模型代码安全评测、区块链漏洞检测、Web3 安全数据集。
 
 ## 数据集特点
 
@@ -19,6 +22,14 @@
 - 不公开原始 raw 数据。
 
 据我们所知，该数据集是当前公开可获得的最大规模智能合约漏洞数据集之一，覆盖漏洞存在性判断、漏洞类型分类和漏洞行级定位三类任务。
+
+## GitHub Topics
+
+建议为仓库设置以下 topics，便于 GitHub 搜索和推荐：
+
+```text
+smart-contracts, solidity, ethereum, vulnerability-detection, smart-contract-security, blockchain-security, web3-security, dataset, llm, code-security, reentrancy, static-analysis, vulnerability-localization, benchmark
+```
 
 ## 支持任务
 
@@ -148,11 +159,11 @@ print("漏洞存在性标签:", samples[0]["has_vulnerability"])
 
 ```bibtex
 @dataset{xu_smart_contract_vulnerability_dataset_2026,
-  title  = {A Large-Scale Smart Contract Vulnerability Dataset},
+  title  = {Smart Contract Vulnerability Dataset for Solidity and Ethereum Security},
   author = {Xu, Daming},
   year   = {2026},
   publisher = {GitHub},
-  url    = {https://github.com/<your-github-username>/smart-contract-vuln-dataset}
+  url    = {https://github.com/CoderDamien/smart-contract-vuln-dataset}
 }
 ```
 

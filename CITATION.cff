@@ -1,17 +1,24 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it using the metadata below."
-title: "Smart Contract Vulnerability Dataset"
+title: "Smart Contract Vulnerability Dataset for Solidity and Ethereum Security"
 authors:
   - family-names: "Xu"
     given-names: "Daming"
 year: 2026
-repository-code: "https://github.com/<your-github-username>/smart-contract-vuln-dataset"
-url: "https://github.com/<your-github-username>/smart-contract-vuln-dataset"
+repository-code: "https://github.com/CoderDamien/smart-contract-vuln-dataset"
+url: "https://github.com/CoderDamien/smart-contract-vuln-dataset"
 license: "MIT AND CC-BY-4.0"
 keywords:
   - smart contract
+  - smart contracts
   - vulnerability detection
   - Solidity
+  - Ethereum
+  - blockchain security
+  - Web3 security
   - dataset
   - line localization
   - vulnerability classification
+  - reentrancy
+  - code security
+  - LLM benchmark
