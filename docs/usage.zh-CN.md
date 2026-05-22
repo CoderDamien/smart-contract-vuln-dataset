@@ -8,7 +8,7 @@
 import json
 from pathlib import Path
 
-path = Path("data/processed/has_vul_721_stratified_v1/train.json")
+path = Path("data/processed/balanced_stage1_resplit_721/has_vul_721_stratified_v1/train.json")
 samples = json.loads(path.read_text(encoding="utf-8"))
 
 print(len(samples))
@@ -50,4 +50,3 @@ def get_vulnerable_lines(sample):
 - `has_vul`：accuracy、precision、recall、F1 和混淆矩阵。
 - `vul_type`：多标签 micro/macro precision、recall 和 F1。
 - `vul_line`：集合匹配、行级 precision/recall/F1、top-k 命中率等。
-

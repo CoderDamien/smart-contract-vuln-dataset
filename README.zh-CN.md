@@ -9,6 +9,8 @@
 
 关键词：智能合约漏洞数据集、Solidity 漏洞检测、以太坊智能合约安全、重入漏洞检测、智能合约漏洞定位、漏洞行定位、漏洞类型分类、大语言模型代码安全评测、区块链漏洞检测、Web3 安全数据集。
 
+推荐 processed 数据包：[data/processed/balanced_stage1_resplit_721.tar.gz](data/processed/balanced_stage1_resplit_721.tar.gz)。
+
 ## 数据集特点
 
 - 漏洞存在性判断合并数据：105,278 条样本。
@@ -131,11 +133,20 @@ smart-contracts, solidity, ethereum, vulnerability-detection, smart-contract-sec
 
 ## 使用示例
 
+先启用 Git LFS，克隆仓库并解压 processed 数据包：
+
+```bash
+git lfs install
+git clone https://github.com/CoderDamien/smart-contract-vuln-dataset.git
+cd smart-contract-vuln-dataset
+tar -xzf data/processed/balanced_stage1_resplit_721.tar.gz -C data/processed/
+```
+
 ```python
 import json
 from pathlib import Path
 
-path = Path("data/processed/has_vul_721_stratified_v1/train.json")
+path = Path("data/processed/balanced_stage1_resplit_721/has_vul_721_stratified_v1/train.json")
 samples = json.loads(path.read_text(encoding="utf-8"))
 
 print("样本数量:", len(samples))

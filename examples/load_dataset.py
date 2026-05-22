@@ -25,7 +25,7 @@ def vulnerable_lines(sample: dict) -> list[int]:
 
 
 def main() -> None:
-    samples = load_split("data/processed/has_vul_721_stratified_v1/train.json")
+    samples = load_split("data/processed/balanced_stage1_resplit_721/has_vul_721_stratified_v1/train.json")
     first = samples[0]
     print(f"samples: {len(samples)}")
     print(f"sample_id: {first['sample_id']}")
@@ -36,4 +36,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

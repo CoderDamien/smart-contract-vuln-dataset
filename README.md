@@ -11,6 +11,8 @@ Dataset card: [DATASET_CARD.md](DATASET_CARD.md).
 
 Keywords: smart contract vulnerability dataset, Solidity vulnerability detection, Ethereum smart contract security, reentrancy detection dataset, smart contract bug localization, vulnerable line localization, vulnerability type classification, LLM code security benchmark, blockchain vulnerability detection, Web3 security dataset.
 
+Processed dataset archive: [data/processed/balanced_stage1_resplit_721.tar.gz](data/processed/balanced_stage1_resplit_721.tar.gz).
+
 ## Highlights
 
 - 105,278 merged samples for binary vulnerability detection.
@@ -167,11 +169,20 @@ See [docs/schema.md](docs/schema.md) for the full field description.
 
 ## Quick Start
 
+Download or clone the repository with Git LFS enabled, then extract the processed benchmark archive:
+
+```bash
+git lfs install
+git clone https://github.com/CoderDamien/smart-contract-vuln-dataset.git
+cd smart-contract-vuln-dataset
+tar -xzf data/processed/balanced_stage1_resplit_721.tar.gz -C data/processed/
+```
+
 ```python
 import json
 from pathlib import Path
 
-path = Path("data/processed/has_vul_721_stratified_v1/train.json")
+path = Path("data/processed/balanced_stage1_resplit_721/has_vul_721_stratified_v1/train.json")
 samples = json.loads(path.read_text(encoding="utf-8"))
 
 print("Samples:", len(samples))

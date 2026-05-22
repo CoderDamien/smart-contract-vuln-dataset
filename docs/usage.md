@@ -8,7 +8,7 @@ This document gives basic examples for loading and using the processed dataset.
 import json
 from pathlib import Path
 
-path = Path("data/processed/has_vul_721_stratified_v1/train.json")
+path = Path("data/processed/balanced_stage1_resplit_721/has_vul_721_stratified_v1/train.json")
 samples = json.loads(path.read_text(encoding="utf-8"))
 
 print(len(samples))
@@ -65,4 +65,3 @@ When reporting results, record:
 - Prompt template or fine-tuning configuration.
 - Evaluation script version.
 - Random seed.
-
