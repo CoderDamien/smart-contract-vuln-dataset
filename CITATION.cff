@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "Smart Contract Vulnerability Dataset"
+authors:
+  - family-names: "Xu"
+    given-names: "Daming"
+year: 2026
+repository-code: "https://github.com/<your-github-username>/smart-contract-vuln-dataset"
+url: "https://github.com/<your-github-username>/smart-contract-vuln-dataset"
+license: "MIT AND CC-BY-4.0"
+keywords:
+  - smart contract
+  - vulnerability detection
+  - Solidity
+  - dataset
+  - line localization
+  - vulnerability classification

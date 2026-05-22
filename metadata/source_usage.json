@@ -1,0 +1,92 @@
+{
+  "raw_data_publication_policy": "Raw upstream data is not redistributed.",
+  "review_date": "2026-05-18",
+  "upstream_sources": {
+    "smartbugs_curated": {
+      "name": "SmartBugs Curated",
+      "url": "https://github.com/smartbugs/smartbugs-curated"
+    },
+    "solidifi_benchmark": {
+      "name": "SolidiFI Benchmark",
+      "url": "https://github.com/DependableSystemsLab/SolidiFI-benchmark"
+    },
+    "dappscan": {
+      "name": "DAppSCAN",
+      "url": "https://github.com/InPlusLab/DAppSCAN"
+    },
+    "slither_audited_smart_contracts": {
+      "name": "Slither Audited Smart Contracts",
+      "url": "https://huggingface.co/datasets/mwritescode/slither-audited-smart-contracts"
+    },
+    "scrawld": {
+      "name": "ScrawlD",
+      "url": "https://github.com/sujeetc/ScrawlD"
+    },
+    "smart_contract_vulndb": {
+      "name": "Smart Contract VulnDB / SCVD",
+      "url": "https://www.scvd.dev/"
+    },
+    "smart_contract_sanctuary_ethereum": {
+      "name": "Smart Contract Sanctuary",
+      "url": "https://github.com/tintinweb/smart-contract-sanctuary"
+    },
+    "Empirical-Analysis-of-Vulnerability-Detection-Tools-for-Solidity-Smart-Contracts": {
+      "name": "Empirical Analysis of Vulnerability Detection Tools for Solidity Smart Contracts",
+      "url": "https://github.com/fsalzano/Empirical-Analysis-of-Vulnerability-Detection-Tools-for-Solidity-Smart-Contracts"
+    }
+  },
+  "local_raw_file_counts_observed": {
+    "dappscan": 30672,
+    "scrawld": 1960,
+    "slither_audited_smart_contracts": 12,
+    "smart_contract_vulndb": 3,
+    "smartbugs_curated": 159,
+    "solidifi_benchmark": 5108
+  },
+  "normalized_staging_file_counts": {
+    "dappscan": 5,
+    "scrawld": 2,
+    "slither_audited_smart_contracts": 5,
+    "smart_contract_vulndb": 2,
+    "smartbugs_curated": 8,
+    "solidifi_benchmark": 8
+  },
+  "merged_source_contributions": {
+    "has_vul_merged_stage0": {
+      "solidifi_benchmark": 24178,
+      "dappscan": 455,
+      "slither_audited_smart_contracts": 80645
+    },
+    "vul_type_merged_stage0": {
+      "solidifi_benchmark": 24178,
+      "dappscan": 455,
+      "slither_audited_smart_contracts": 70940
+    },
+    "vul_line_merged_stage0": {
+      "solidifi_benchmark": 24178
+    }
+  },
+  "processed_source_contributions": {
+    "has_vul_721_stratified_v1": {
+      "dappscan": 453,
+      "Empirical-Analysis-of-Vulnerability-Detection-Tools-for-Solidity-Smart-Contracts": 2182,
+      "scrawld": 1951,
+      "slither_audited_smart_contracts": 18714,
+      "solidifi_benchmark": 1141
+    },
+    "vul_type_721_stratified_v1": {
+      "dappscan": 455,
+      "Empirical-Analysis-of-Vulnerability-Detection-Tools-for-Solidity-Smart-Contracts": 1609,
+      "scrawld": 1909,
+      "slither_audited_smart_contracts": 15217,
+      "solidifi_benchmark": 5204
+    },
+    "vul_line_721_stratified_v1": {
+      "dappscan": 464,
+      "Empirical-Analysis-of-Vulnerability-Detection-Tools-for-Solidity-Smart-Contracts": 1519,
+      "scrawld": 1952,
+      "slither_audited_smart_contracts": 2815,
+      "solidifi_benchmark": 5741
+    }
+  }
+}

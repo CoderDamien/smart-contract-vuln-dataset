@@ -1,0 +1,32 @@
+# Local/system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Raw upstream data must not be published
+data/raw/
+data/external/
+raw/
+external/
+
+# Large or private experiment artifacts
+experiments/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+
+# Secrets
+.env
+*.key
+*.pem
+*.token
+

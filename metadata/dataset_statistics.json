@@ -1,0 +1,100 @@
+{
+  "release_draft": true,
+  "statistics_source": "local build reports under data/merged and data/prepared/balanced_stage1_resplit_721",
+  "merged": {
+    "has_vul_merged_stage0": {
+      "rows": 105278,
+      "source_counts": {
+        "solidifi_benchmark": 24178,
+        "dappscan": 455,
+        "slither_audited_smart_contracts": 80645
+      },
+      "label_counts": {
+        "access_control": 22342,
+        "arithmetic": 24879,
+        "bad_randomness": 3020,
+        "denial_service": 102,
+        "front_running": 288,
+        "other": 38793,
+        "reentrancy": 35151,
+        "time_manipulation": 3049,
+        "unchecked_low_calls": 62048
+      }
+    },
+    "vul_type_merged_stage0": {
+      "rows": 95573,
+      "source_counts": {
+        "solidifi_benchmark": 24178,
+        "dappscan": 455,
+        "slither_audited_smart_contracts": 70940
+      },
+      "label_counts": {
+        "access_control": 22342,
+        "arithmetic": 24879,
+        "bad_randomness": 3020,
+        "denial_service": 102,
+        "front_running": 288,
+        "reentrancy": 35151,
+        "time_manipulation": 3049,
+        "unchecked_low_calls": 62048
+      }
+    },
+    "vul_line_merged_stage0": {
+      "rows": 24178,
+      "source_counts": {
+        "solidifi_benchmark": 24178
+      },
+      "label_counts": {
+        "access_control": 5336,
+        "arithmetic": 4754,
+        "front_running": 288,
+        "reentrancy": 653,
+        "time_manipulation": 2985,
+        "unchecked_low_calls": 10248
+      }
+    }
+  },
+  "processed_recommended_split": {
+    "name": "balanced_stage1_resplit_721",
+    "split_ratios": {
+      "train": 0.7,
+      "validation": 0.2,
+      "test": 0.1
+    },
+    "group_split": {
+      "enabled": true,
+      "group_key": "dedup_hash_normalized|dedup_hash_raw|context_sha256"
+    },
+    "datasets": {
+      "has_vul_721_stratified_v1": {
+        "train": 17411,
+        "validation": 4667,
+        "test": 2363,
+        "total": 24441
+      },
+      "vul_type_721_stratified_v1": {
+        "train": 18573,
+        "validation": 3829,
+        "test": 1992,
+        "total": 24394
+      },
+      "vul_line_721_stratified_v1": {
+        "train": 10155,
+        "validation": 1529,
+        "test": 807,
+        "total": 12491
+      }
+    }
+  },
+  "normalized_labels": [
+    "access_control",
+    "arithmetic",
+    "bad_randomness",
+    "denial_service",
+    "front_running",
+    "reentrancy",
+    "time_manipulation",
+    "unchecked_low_calls"
+  ]
+}
+
