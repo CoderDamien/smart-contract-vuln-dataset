@@ -12,6 +12,7 @@ Dataset card: [DATASET_CARD.md](DATASET_CARD.md).
 Keywords: smart contract vulnerability dataset, Solidity vulnerability detection, Ethereum smart contract security, reentrancy detection dataset, smart contract bug localization, vulnerable line localization, vulnerability type classification, LLM code security benchmark, blockchain vulnerability detection, Web3 security dataset.
 
 Processed dataset archive: [data/processed/balanced_stage1_resplit_721.tar.gz](data/processed/balanced_stage1_resplit_721.tar.gz).
+Merged dataset archives: [data/merged/](data/merged/).
 
 ## Highlights
 
@@ -55,6 +56,8 @@ The dataset supports three tasks:
 | `vul_type_merged_stage0` | 95,573 | Vulnerability type classification |
 | `vul_line_merged_stage0` | 24,178 | Vulnerable line localization |
 
+Merged archives are provided for users who need more data than the recommended processed split. They are larger multi-source pools after normalization, label mapping, and basic cleaning.
+
 ### Processed Benchmark Splits
 
 The current recommended processed split is `balanced_stage1_resplit_721`.
@@ -64,6 +67,62 @@ The current recommended processed split is `balanced_stage1_resplit_721`.
 | `has_vul_721_stratified_v1` | 17,411 | 4,667 | 2,363 | 24,441 |
 | `vul_type_721_stratified_v1` | 18,573 | 3,829 | 1,992 | 24,394 |
 | `vul_line_721_stratified_v1` | 10,155 | 1,529 | 807 | 12,491 |
+
+Processed splits are smaller because they apply task-specific filtering, balancing, deduplication, and train/validation/test construction.
+
+### Vulnerability Type Counts
+
+The merged `vul_type_merged_stage0` label counts are:
+
+| Type | Count |
+|---|---:|
+| `access_control` | 22,342 |
+| `arithmetic` | 24,879 |
+| `bad_randomness` | 3,020 |
+| `denial_service` | 102 |
+| `front_running` | 288 |
+| `reentrancy` | 35,151 |
+| `time_manipulation` | 3,049 |
+| `unchecked_low_calls` | 62,048 |
+
+The recommended processed `vul_type_721_stratified_v1` split contains 24,394 samples. Its label-presence counts are:
+
+| Type | Train | Validation | Test | Total |
+|---|---:|---:|---:|---:|
+| `access_control` | 4,062 | 819 | 406 | 5,287 |
+| `arithmetic` | 6,711 | 1,631 | 844 | 9,186 |
+| `bad_randomness` | 1,795 | 471 | 241 | 2,507 |
+| `denial_service` | 996 | 269 | 153 | 1,418 |
+| `front_running` | 779 | 218 | 119 | 1,116 |
+| `reentrancy` | 5,010 | 1,234 | 615 | 6,859 |
+| `time_manipulation` | 1,449 | 311 | 239 | 1,999 |
+| `unchecked_low_calls` | 4,190 | 571 | 291 | 5,052 |
+
+### Vulnerable Line Localization Counts
+
+The merged `vul_line_merged_stage0` contains 24,178 line-localization samples. Label counts are:
+
+| Type | Count |
+|---|---:|
+| `access_control` | 5,336 |
+| `arithmetic` | 4,754 |
+| `front_running` | 288 |
+| `reentrancy` | 653 |
+| `time_manipulation` | 2,985 |
+| `unchecked_low_calls` | 10,248 |
+
+The recommended processed `vul_line_721_stratified_v1` split contains 12,491 samples. Its label-presence counts are:
+
+| Type | Train | Validation | Test | Total |
+|---|---:|---:|---:|---:|
+| `access_control` | 1,262 | 59 | 34 | 1,355 |
+| `arithmetic` | 2,548 | 542 | 289 | 3,379 |
+| `bad_randomness` | 2,014 | 559 | 281 | 2,854 |
+| `denial_service` | 1,023 | 280 | 143 | 1,446 |
+| `front_running` | 838 | 233 | 126 | 1,197 |
+| `reentrancy` | 269 | 77 | 36 | 382 |
+| `time_manipulation` | 1,462 | 287 | 152 | 1,901 |
+| `unchecked_low_calls` | 3,312 | 220 | 128 | 3,660 |
 
 ## Vulnerability Categories
 
@@ -176,6 +235,9 @@ git lfs install
 git clone https://github.com/CoderDamien/smart-contract-vuln-dataset.git
 cd smart-contract-vuln-dataset
 tar -xzf data/processed/balanced_stage1_resplit_721.tar.gz -C data/processed/
+tar -xzf data/merged/has_vul_merged_stage0.tar.gz -C data/merged/
+tar -xzf data/merged/vul_type_merged_stage0.tar.gz -C data/merged/
+tar -xzf data/merged/vul_line_merged_stage0.tar.gz -C data/merged/
 ```
 
 ```python

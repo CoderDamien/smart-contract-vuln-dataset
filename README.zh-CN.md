@@ -10,6 +10,7 @@
 关键词：智能合约漏洞数据集、Solidity 漏洞检测、以太坊智能合约安全、重入漏洞检测、智能合约漏洞定位、漏洞行定位、漏洞类型分类、大语言模型代码安全评测、区块链漏洞检测、Web3 安全数据集。
 
 推荐 processed 数据包：[data/processed/balanced_stage1_resplit_721.tar.gz](data/processed/balanced_stage1_resplit_721.tar.gz)。
+merged 数据包：[data/merged/](data/merged/)。
 
 ## 数据集特点
 
@@ -51,6 +52,8 @@ smart-contracts, solidity, ethereum, vulnerability-detection, smart-contract-sec
 | `vul_type_merged_stage0` | 95,573 | 漏洞类型分类 |
 | `vul_line_merged_stage0` | 24,178 | 漏洞行定位 |
 
+merged 数据是多源规范化、标签映射和基础清理后的合并池，适合在推荐 processed 数据量不够时自行扩充训练集、重新采样或重新切分。
+
 ### 推荐整理后划分
 
 当前推荐公开版本为 `balanced_stage1_resplit_721`。
@@ -60,6 +63,62 @@ smart-contracts, solidity, ethereum, vulnerability-detection, smart-contract-sec
 | `has_vul_721_stratified_v1` | 17,411 | 4,667 | 2,363 | 24,441 |
 | `vul_type_721_stratified_v1` | 18,573 | 3,829 | 1,992 | 24,394 |
 | `vul_line_721_stratified_v1` | 10,155 | 1,529 | 807 | 12,491 |
+
+processed 数据经过任务级过滤、类别均衡、去重和 train/validation/test 构建，适合直接训练、评测和论文复现。
+
+### 漏洞类型数量
+
+merged `vul_type_merged_stage0` 的标签数量：
+
+| 类型 | 数量 |
+|---|---:|
+| `access_control` | 22,342 |
+| `arithmetic` | 24,879 |
+| `bad_randomness` | 3,020 |
+| `denial_service` | 102 |
+| `front_running` | 288 |
+| `reentrancy` | 35,151 |
+| `time_manipulation` | 3,049 |
+| `unchecked_low_calls` | 62,048 |
+
+推荐 processed `vul_type_721_stratified_v1` 共 24,394 条样本，标签出现次数如下：
+
+| 类型 | 训练集 | 验证集 | 测试集 | 合计 |
+|---|---:|---:|---:|---:|
+| `access_control` | 4,062 | 819 | 406 | 5,287 |
+| `arithmetic` | 6,711 | 1,631 | 844 | 9,186 |
+| `bad_randomness` | 1,795 | 471 | 241 | 2,507 |
+| `denial_service` | 996 | 269 | 153 | 1,418 |
+| `front_running` | 779 | 218 | 119 | 1,116 |
+| `reentrancy` | 5,010 | 1,234 | 615 | 6,859 |
+| `time_manipulation` | 1,449 | 311 | 239 | 1,999 |
+| `unchecked_low_calls` | 4,190 | 571 | 291 | 5,052 |
+
+### 漏洞行定位数量
+
+merged `vul_line_merged_stage0` 包含 24,178 条漏洞行定位样本，标签数量如下：
+
+| 类型 | 数量 |
+|---|---:|
+| `access_control` | 5,336 |
+| `arithmetic` | 4,754 |
+| `front_running` | 288 |
+| `reentrancy` | 653 |
+| `time_manipulation` | 2,985 |
+| `unchecked_low_calls` | 10,248 |
+
+推荐 processed `vul_line_721_stratified_v1` 共 12,491 条样本，标签出现次数如下：
+
+| 类型 | 训练集 | 验证集 | 测试集 | 合计 |
+|---|---:|---:|---:|---:|
+| `access_control` | 1,262 | 59 | 34 | 1,355 |
+| `arithmetic` | 2,548 | 542 | 289 | 3,379 |
+| `bad_randomness` | 2,014 | 559 | 281 | 2,854 |
+| `denial_service` | 1,023 | 280 | 143 | 1,446 |
+| `front_running` | 838 | 233 | 126 | 1,197 |
+| `reentrancy` | 269 | 77 | 36 | 382 |
+| `time_manipulation` | 1,462 | 287 | 152 | 1,901 |
+| `unchecked_low_calls` | 3,312 | 220 | 128 | 3,660 |
 
 ## 漏洞类型
 
@@ -140,6 +199,9 @@ git lfs install
 git clone https://github.com/CoderDamien/smart-contract-vuln-dataset.git
 cd smart-contract-vuln-dataset
 tar -xzf data/processed/balanced_stage1_resplit_721.tar.gz -C data/processed/
+tar -xzf data/merged/has_vul_merged_stage0.tar.gz -C data/merged/
+tar -xzf data/merged/vul_type_merged_stage0.tar.gz -C data/merged/
+tar -xzf data/merged/vul_line_merged_stage0.tar.gz -C data/merged/
 ```
 
 ```python
