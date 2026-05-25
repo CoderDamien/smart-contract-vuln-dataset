@@ -1,0 +1,92 @@
+{
+  "version": "draft-v1",
+  "targets": {
+    "front_running": {
+      "seed_labels": [
+        "front_running"
+      ],
+      "max_heuristic_candidates": 3000,
+      "keyword_groups": {
+        "time_dependency": [
+          "block.timestamp",
+          " now ",
+          "deadline",
+          "expiry",
+          "expire",
+          "timelock",
+          "block.number"
+        ],
+        "order_market": [
+          "auction",
+          "bid",
+          "order",
+          "swap",
+          "price",
+          "reserve",
+          "liquidity",
+          "market",
+          "oracle"
+        ],
+        "execution_action": [
+          "buy",
+          "sell",
+          "trade",
+          "execute",
+          "fill",
+          "claim",
+          "liquidat",
+          "settle"
+        ]
+      },
+      "detector_hints": [
+        "weak-prng",
+        "tx-origin"
+      ],
+      "heuristic_threshold": 3
+    },
+    "denial_service": {
+      "seed_labels": [
+        "denial_service"
+      ],
+      "max_heuristic_candidates": 4000,
+      "keyword_groups": {
+        "loop_construct": [
+          "for(",
+          "for (",
+          "while(",
+          "while ("
+        ],
+        "external_call": [
+          ".transfer(",
+          ".send(",
+          ".call(",
+          ".delegatecall(",
+          ".staticcall(",
+          "call.value"
+        ],
+        "failure_control": [
+          "revert(",
+          "require(",
+          "assert(",
+          "throw",
+          "selfdestruct",
+          "suicide"
+        ],
+        "gas_collection": [
+          "push(",
+          "pop(",
+          "array.length",
+          "mapping",
+          "withdraw",
+          "refund"
+        ]
+      },
+      "detector_hints": [
+        "locked-ether",
+        "msg-value-loop",
+        "controlled-array-length"
+      ],
+      "heuristic_threshold": 3
+    }
+  }
+}

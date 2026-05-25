@@ -1,0 +1,79 @@
+{
+  "version": "front-running-round2-v1",
+  "target": "front_running",
+  "source_review_pack": "data/review/front_running/front_running_review_pack_v1.json",
+  "source_review_sheet": "data/review/front_running/front_running_review_sheet_v1.csv",
+  "only_decision": "defer",
+  "min_round2_score": 5,
+  "max_candidates": 300,
+  "include_groups": {
+    "mempool_explicit": [
+      "front running",
+      "front-running",
+      "frontrun",
+      "mempool",
+      "sandwich"
+    ],
+    "auction_commit": [
+      "auction",
+      "bid",
+      "highestbid",
+      "lowestask",
+      "sealed bid",
+      "commit",
+      "reveal"
+    ],
+    "dex_slippage": [
+      "swapexact",
+      "amountoutmin",
+      "amountinmax",
+      "slippage",
+      "deadline"
+    ],
+    "order_matching": [
+      "maker",
+      "taker",
+      "match",
+      "orderbook",
+      "order book",
+      "fillorder",
+      "executeorder",
+      "settle"
+    ],
+    "liquidation_price": [
+      "liquidat",
+      "oracle",
+      "reserve",
+      "price"
+    ],
+    "execution_gate": [
+      "deadline",
+      "expiry",
+      "expire",
+      "block.timestamp",
+      "block.number"
+    ]
+  },
+  "exclude_groups": {
+    "nft_gaming_noise": [
+      "erc721enumerable",
+      "tokenuri",
+      "metadatainterface",
+      "traits",
+      "mint price",
+      "randomkongowner",
+      "krill",
+      "furballs",
+      "goat",
+      "dice",
+      "barn",
+      "shelter"
+    ],
+    "generic_randomness_noise": [
+      "weak-prng",
+      "random",
+      "rolltx",
+      "diceproject"
+    ]
+  }
+}

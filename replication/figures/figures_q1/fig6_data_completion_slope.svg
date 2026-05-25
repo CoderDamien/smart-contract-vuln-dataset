@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<rect width="900" height="560" rx="18" fill="white"/>
+<text x="450.0" y="36" font-family="Aptos, Calibri, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#243044">Before vs After Data Completion</text>
+<text x="245" y="72" font-family="Aptos, Calibri, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#243044">Before</text>
+<text x="655" y="72" font-family="Aptos, Calibri, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#243044">After</text>
+<text x="70" y="103" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">Qwen-3B type</text>
+<line x1="245" y1="81.9" x2="655" y2="81.9" stroke="#C94545" stroke-width="2.4"/>
+<circle cx="245" cy="81.9" r="5" fill="#C94545"/>
+<circle cx="655" cy="81.9" r="5" fill="#C94545"/>
+<text x="233" y="85.85046978714419" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">0.544</text>
+<text x="667" y="85.93019174177542" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">0.541</text>
+<text x="70" y="157" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">Qwen-3B line</text>
+<line x1="245" y1="137.7" x2="655" y2="144.2" stroke="#C94545" stroke-width="2.4"/>
+<circle cx="245" cy="137.7" r="5" fill="#C94545"/>
+<circle cx="655" cy="144.2" r="5" fill="#C94545"/>
+<text x="233" y="141.67858179706778" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">0.482</text>
+<text x="667" y="148.18163673313188" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">0.263</text>
+<text x="70" y="211" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">CodeBERT type</text>
+<line x1="245" y1="188.7" x2="655" y2="189.0" stroke="#C94545" stroke-width="2.4"/>
+<circle cx="245" cy="188.7" r="5" fill="#C94545"/>
+<circle cx="655" cy="189.0" r="5" fill="#C94545"/>
+<text x="233" y="192.67290080365274" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">0.584</text>
+<text x="667" y="193.0333568666781" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">0.571</text>
+<text x="70" y="265" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">CodeBERT line</text>
+<line x1="245" y1="246.3" x2="655" y2="252.1" stroke="#C94545" stroke-width="2.4"/>
+<circle cx="245" cy="246.3" r="5" fill="#C94545"/>
+<circle cx="655" cy="252.1" r="5" fill="#C94545"/>
+<text x="233" y="250.25724145211734" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">0.463</text>
+<text x="667" y="256.0958279998416" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">0.266</text>
+<text x="70" y="319" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">GraphCodeBERT type</text>
+<line x1="245" y1="296.0" x2="655" y2="297.3" stroke="#C94545" stroke-width="2.4"/>
+<circle cx="245" cy="296.0" r="5" fill="#C94545"/>
+<circle cx="655" cy="297.3" r="5" fill="#C94545"/>
+<text x="233" y="300.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">0.606</text>
+<text x="667" y="301.29998746354534" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">0.562</text>
+<text x="70" y="373" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">GraphCodeBERT line</text>
+<line x1="245" y1="353.2" x2="655" y2="360.1" stroke="#C94545" stroke-width="2.4"/>
+<circle cx="245" cy="353.2" r="5" fill="#C94545"/>
+<circle cx="655" cy="360.1" r="5" fill="#C94545"/>
+<text x="233" y="357.17228057905226" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">0.499</text>
+<text x="667" y="364.05292363319654" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">0.268</text>
+</svg>

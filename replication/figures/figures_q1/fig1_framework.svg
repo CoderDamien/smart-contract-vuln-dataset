@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="440" viewBox="0 0 1120 440">
+<rect width="1120" height="440" rx="18" fill="white"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#9AA7BD"/></marker></defs>
+<text x="560.0" y="36" font-family="Aptos, Calibri, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#243044">Unified Multi-task Evaluation Framework</text>
+<path d="M186,176 L235,176" stroke="#9AA7BD" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M361,176 L410,176" stroke="#9AA7BD" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M536,176 L585,176" stroke="#9AA7BD" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M711,176 L760,176" stroke="#9AA7BD" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M886,176 L935,176" stroke="#9AA7BD" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1003,214 C1000,260 885,260 827,285" stroke="#9AA7BD" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M886,321 L934,321" stroke="#9AA7BD" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="70" y="140" width="128" height="74" rx="13" fill="#F6F8FB" stroke="#C9D2E3" stroke-width="1.4"/>
+<text x="134" y="170" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Multi-source</text>
+<text x="134" y="188" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#243044">Data</text>
+<rect x="245" y="140" width="128" height="74" rx="13" fill="#F6F8FB" stroke="#C9D2E3" stroke-width="1.4"/>
+<text x="309" y="170" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Governance</text>
+<text x="309" y="188" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#243044">&amp; Splits</text>
+<rect x="420" y="140" width="128" height="74" rx="13" fill="#F6F8FB" stroke="#C9D2E3" stroke-width="1.4"/>
+<text x="484" y="170" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Tasks</text>
+<text x="484" y="188" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#243044">H/T/L</text>
+<rect x="595" y="140" width="128" height="74" rx="13" fill="#F6F8FB" stroke="#C9D2E3" stroke-width="1.4"/>
+<text x="659" y="170" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Modes</text>
+<text x="659" y="188" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#243044">D/P/FT</text>
+<rect x="770" y="140" width="128" height="74" rx="13" fill="#F6F8FB" stroke="#C9D2E3" stroke-width="1.4"/>
+<text x="834" y="170" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Models</text>
+<text x="834" y="188" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#243044">21 Open LLMs</text>
+<rect x="945" y="140" width="128" height="74" rx="13" fill="#F6F8FB" stroke="#C9D2E3" stroke-width="1.4"/>
+<text x="1009" y="170" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Unified</text>
+<text x="1009" y="188" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#243044">Metrics</text>
+<rect x="770" y="285" width="128" height="74" rx="13" fill="#F6F8FB" stroke="#C9D2E3" stroke-width="1.4"/>
+<text x="834" y="315" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Boundary</text>
+<text x="834" y="333" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#243044">Analysis</text>
+<rect x="945" y="285" width="128" height="74" rx="13" fill="#F6F8FB" stroke="#C9D2E3" stroke-width="1.4"/>
+<text x="1009" y="315" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Evidence</text>
+<text x="1009" y="333" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#243044">Synthesis</text>
+<text x="560.0" y="405" font-family="Aptos, Calibri, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#667085">The framework emphasizes systematic evidence rather than a single-model leaderboard.</text>
+</svg>

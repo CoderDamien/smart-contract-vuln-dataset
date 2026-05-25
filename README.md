@@ -8,11 +8,26 @@ This repository publishes processed benchmark data, normalized annotations, cons
 
 Chinese version: [README.zh-CN.md](README.zh-CN.md).
 Dataset card: [DATASET_CARD.md](DATASET_CARD.md).
+Paper replication package: [replication/](replication/).
 
 Keywords: smart contract vulnerability dataset, Solidity vulnerability detection, Ethereum smart contract security, reentrancy detection dataset, smart contract bug localization, vulnerable line localization, vulnerability type classification, LLM code security benchmark, blockchain vulnerability detection, Web3 security dataset.
 
 Processed dataset archive: [data/processed/balanced_stage1_resplit_721.tar.gz](data/processed/balanced_stage1_resplit_721.tar.gz).
 Merged dataset archives: [data/merged/](data/merged/).
+
+## Paper Replication Package
+
+This repository also contains a paper-oriented replication package under [replication/](replication/). It includes split indexes, label mappings, experiment configurations, evaluation scripts, result tables, prediction artifact summaries, rendered figures, and figure source files.
+
+The mapping from repository files to manuscript results is documented in [replication/README.md](replication/README.md). In particular:
+
+- Dataset splits are indexed in [replication/data_splits/balanced_stage1_resplit_721/split_file_index.csv](replication/data_splits/balanced_stage1_resplit_721/split_file_index.csv), with checksums and internal paths pointing to [data/processed/balanced_stage1_resplit_721.tar.gz](data/processed/balanced_stage1_resplit_721.tar.gz).
+- Label mappings are in [replication/label_mapping/](replication/label_mapping/).
+- Experiment configurations are in [replication/experiment_configs/](replication/experiment_configs/).
+- Evaluation scripts are in [replication/evaluation/](replication/evaluation/).
+- Result tables are in [replication/results/](replication/results/).
+- Prediction artifact summaries are in [replication/prediction_summaries/](replication/prediction_summaries/).
+- Figure source files and rendered SVG figures are in [replication/figure_source/](replication/figure_source/) and [replication/figures/](replication/figures/).
 
 ## Highlights
 

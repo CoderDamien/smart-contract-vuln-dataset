@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="590" viewBox="0 0 940 590">
+<rect width="100%" height="100%" fill="white"/>
+<text x="470.0" y="34.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#253041">Dataset completion changes measured difficulty</text>
+<text x="330.0" y="73.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#253041">Original 3000-sample stage</text>
+<text x="715.0" y="73.0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#253041">Completed large-scale stage</text>
+<text x="80.0" y="106.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#253041">Qwen-3B type</text>
+<text x="230.0" y="106.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#6B7280">f1</text>
+<line x1="330" y1="102" x2="715" y2="102" stroke="#3B82B8" stroke-width="2.2" opacity="0.8"/>
+<circle cx="330" cy="102" r="6" fill="#3B82B8"/>
+<circle cx="715" cy="102" r="6" fill="#3B82B8"/>
+<text x="318.0" y="106.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#253041">0.544</text>
+<text x="727.0" y="106.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#253041">0.541</text>
+<text x="522.5" y="94.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#3B82B8">-0.003</text>
+<text x="80.0" y="173.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#253041">Qwen-3B line</text>
+<text x="230.0" y="173.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#6B7280">strict_f1</text>
+<line x1="330" y1="169" x2="715" y2="169" stroke="#B8563C" stroke-width="2.2" opacity="0.8"/>
+<circle cx="330" cy="169" r="6" fill="#B8563C"/>
+<circle cx="715" cy="169" r="6" fill="#B8563C"/>
+<text x="318.0" y="173.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#253041">0.482</text>
+<text x="727.0" y="173.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#253041">0.263</text>
+<text x="522.5" y="161.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#B8563C">-0.219</text>
+<text x="80.0" y="240.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#253041">CodeBERT type</text>
+<text x="230.0" y="240.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#6B7280">f1</text>
+<line x1="330" y1="236" x2="715" y2="236" stroke="#3B82B8" stroke-width="2.2" opacity="0.8"/>
+<circle cx="330" cy="236" r="6" fill="#3B82B8"/>
+<circle cx="715" cy="236" r="6" fill="#3B82B8"/>
+<text x="318.0" y="240.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#253041">0.584</text>
+<text x="727.0" y="240.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#253041">0.571</text>
+<text x="522.5" y="228.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#3B82B8">-0.012</text>
+<text x="80.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#253041">CodeBERT line</text>
+<text x="230.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#6B7280">strict_f1</text>
+<line x1="330" y1="303" x2="715" y2="303" stroke="#B8563C" stroke-width="2.2" opacity="0.8"/>
+<circle cx="330" cy="303" r="6" fill="#B8563C"/>
+<circle cx="715" cy="303" r="6" fill="#B8563C"/>
+<text x="318.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#253041">0.463</text>
+<text x="727.0" y="307.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#253041">0.266</text>
+<text x="522.5" y="295.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#B8563C">-0.197</text>
+<text x="80.0" y="374.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#253041">GraphCodeBERT type</text>
+<text x="230.0" y="374.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#6B7280">f1</text>
+<line x1="330" y1="370" x2="715" y2="370" stroke="#3B82B8" stroke-width="2.2" opacity="0.8"/>
+<circle cx="330" cy="370" r="6" fill="#3B82B8"/>
+<circle cx="715" cy="370" r="6" fill="#3B82B8"/>
+<text x="318.0" y="374.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#253041">0.606</text>
+<text x="727.0" y="374.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#253041">0.562</text>
+<text x="522.5" y="362.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#3B82B8">-0.044</text>
+<text x="80.0" y="441.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#253041">GraphCodeBERT line</text>
+<text x="230.0" y="441.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#6B7280">strict_f1</text>
+<line x1="330" y1="437" x2="715" y2="437" stroke="#B8563C" stroke-width="2.2" opacity="0.8"/>
+<circle cx="330" cy="437" r="6" fill="#B8563C"/>
+<circle cx="715" cy="437" r="6" fill="#B8563C"/>
+<text x="318.0" y="441.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#253041">0.499</text>
+<text x="727.0" y="441.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" text-anchor="start" fill="#253041">0.268</text>
+<text x="522.5" y="429.0" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#B8563C">-0.232</text>
+<text x="470.0" y="556.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#6B7280">Type and line tasks are shown separately because completion changes label coverage and localization difficulty.</text>
+</svg>

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650">
+<rect width="100%" height="100%" fill="white"/>
+<text x="560.0" y="34.0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#253041">Qwen2.5-Coder scaling is non-monotonic across modes</text>
+<text x="229.0" y="66.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#253041">Has-vul F1</text>
+<line x1="64" y1="478.0" x2="394" y2="478.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="54.0" y="482.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.0</text>
+<line x1="64" y1="400.0" x2="394" y2="400.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="54.0" y="404.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.2</text>
+<line x1="64" y1="322.0" x2="394" y2="322.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="54.0" y="326.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.4</text>
+<line x1="64" y1="244.0" x2="394" y2="244.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="54.0" y="248.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.6</text>
+<line x1="64" y1="166.0" x2="394" y2="166.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="54.0" y="170.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.8</text>
+<line x1="64" y1="88.0" x2="394" y2="88.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="54.0" y="92.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">1.0</text>
+<path d="M 64.0 468.0 L 140.5 457.5 L 195.0 352.7 L 264.9 389.7 L 323.4 367.4 L 394.0 373.3" fill="none" stroke="#5A6E8C" stroke-width="2.2"/>
+<circle cx="64.0" cy="468.0" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="140.5" cy="457.5" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="195.0" cy="352.7" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="264.9" cy="389.7" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="323.4" cy="367.4" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="394.0" cy="373.3" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<path d="M 64.0 464.3 L 140.5 462.1 L 195.0 408.1 L 264.9 425.0 L 323.4 408.0 L 394.0 381.6" fill="none" stroke="#C9893F" stroke-width="2.2"/>
+<circle cx="64.0" cy="464.3" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="140.5" cy="462.1" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="195.0" cy="408.1" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="264.9" cy="425.0" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="323.4" cy="408.0" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="394.0" cy="381.6" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<path d="M 64.0 190.4 L 140.5 181.6 L 195.0 171.0 L 264.9 181.2 L 323.4 177.0 L 394.0 182.2" fill="none" stroke="#2A9D78" stroke-width="2.2"/>
+<circle cx="64.0" cy="190.4" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="140.5" cy="181.6" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="195.0" cy="171.0" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="264.9" cy="181.2" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="323.4" cy="177.0" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="394.0" cy="182.2" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<path d="M 64.0 136.5 L 140.5 136.5 L 195.0 137.0" fill="none" stroke="#C44E52" stroke-width="2.2"/>
+<circle cx="64.0" cy="136.5" r="4.5" fill="#C44E52" stroke="white" stroke-width="1"/>
+<circle cx="140.5" cy="136.5" r="4.5" fill="#C44E52" stroke="white" stroke-width="1"/>
+<circle cx="195.0" cy="137.0" r="4.5" fill="#C44E52" stroke="white" stroke-width="1"/>
+<text x="64.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 64.0 502)">0.5B</text>
+<text x="140.5" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 140.47884041028442 502)">1.5B</text>
+<text x="195.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 194.99751238012948 502)">3B</text>
+<text x="264.9" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 264.89357827880224 502)">7B</text>
+<text x="323.4" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 323.43212668885735 502)">14B</text>
+<text x="394.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 394.0 502)">32B</text>
+<text x="587.0" y="66.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#253041">Type macro-F1</text>
+<line x1="422" y1="478.0" x2="752" y2="478.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="412.0" y="482.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.0</text>
+<line x1="422" y1="400.0" x2="752" y2="400.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="412.0" y="404.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.2</text>
+<line x1="422" y1="322.0" x2="752" y2="322.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="412.0" y="326.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.4</text>
+<line x1="422" y1="244.0" x2="752" y2="244.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="412.0" y="248.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.6</text>
+<line x1="422" y1="166.0" x2="752" y2="166.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="412.0" y="170.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.8</text>
+<line x1="422" y1="88.0" x2="752" y2="88.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="412.0" y="92.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">1.0</text>
+<path d="M 422.0 455.6 L 498.5 442.7 L 553.0 435.4 L 622.9 433.4 L 681.4 432.2 L 752.0 434.4" fill="none" stroke="#5A6E8C" stroke-width="2.2"/>
+<circle cx="422.0" cy="455.6" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="498.5" cy="442.7" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="553.0" cy="435.4" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="622.9" cy="433.4" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="681.4" cy="432.2" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="752.0" cy="434.4" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<path d="M 422.0 456.5 L 498.5 456.8 L 553.0 454.0 L 622.9 456.9 L 681.4 455.2 L 752.0 457.5" fill="none" stroke="#C9893F" stroke-width="2.2"/>
+<circle cx="422.0" cy="456.5" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="498.5" cy="456.8" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="553.0" cy="454.0" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="622.9" cy="456.9" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="681.4" cy="455.2" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="752.0" cy="457.5" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<path d="M 422.0 336.4 L 498.5 320.1 L 622.9 313.9 L 681.4 308.3 L 752.0 304.6" fill="none" stroke="#2A9D78" stroke-width="2.2"/>
+<circle cx="422.0" cy="336.4" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="498.5" cy="320.1" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="622.9" cy="313.9" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="681.4" cy="308.3" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="752.0" cy="304.6" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<path d="M 422.0 292.6 L 498.5 293.6 L 553.0 297.1" fill="none" stroke="#C44E52" stroke-width="2.2"/>
+<circle cx="422.0" cy="292.6" r="4.5" fill="#C44E52" stroke="white" stroke-width="1"/>
+<circle cx="498.5" cy="293.6" r="4.5" fill="#C44E52" stroke="white" stroke-width="1"/>
+<circle cx="553.0" cy="297.1" r="4.5" fill="#C44E52" stroke="white" stroke-width="1"/>
+<text x="422.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 422.0 502)">0.5B</text>
+<text x="498.5" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 498.4788404102844 502)">1.5B</text>
+<text x="553.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 552.9975123801295 502)">3B</text>
+<text x="622.9" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 622.8935782788022 502)">7B</text>
+<text x="681.4" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 681.4321266888574 502)">14B</text>
+<text x="752.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 752.0 502)">32B</text>
+<text x="945.0" y="66.0" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#253041">Line tolerant-F1</text>
+<line x1="780" y1="478.0" x2="1110" y2="478.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="770.0" y="482.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.0</text>
+<line x1="780" y1="400.0" x2="1110" y2="400.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="770.0" y="404.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.2</text>
+<line x1="780" y1="322.0" x2="1110" y2="322.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="770.0" y="326.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.4</text>
+<line x1="780" y1="244.0" x2="1110" y2="244.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="770.0" y="248.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.6</text>
+<line x1="780" y1="166.0" x2="1110" y2="166.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="770.0" y="170.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">0.8</text>
+<line x1="780" y1="88.0" x2="1110" y2="88.0" stroke="#D7DDE8" stroke-width="1"/>
+<text x="770.0" y="92.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="end" fill="#6B7280">1.0</text>
+<path d="M 780.0 436.0 L 856.5 424.4 L 911.0 445.9 L 980.9 427.8 L 1039.4 436.7 L 1110.0 409.7" fill="none" stroke="#5A6E8C" stroke-width="2.2"/>
+<circle cx="780.0" cy="436.0" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="856.5" cy="424.4" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="911.0" cy="445.9" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="980.9" cy="427.8" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="1039.4" cy="436.7" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<circle cx="1110.0" cy="409.7" r="4.5" fill="#5A6E8C" stroke="white" stroke-width="1"/>
+<path d="M 780.0 443.1 L 856.5 415.2 L 911.0 431.7 L 980.9 410.2 L 1039.4 425.9 L 1110.0 407.0" fill="none" stroke="#C9893F" stroke-width="2.2"/>
+<circle cx="780.0" cy="443.1" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="856.5" cy="415.2" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="911.0" cy="431.7" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="980.9" cy="410.2" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="1039.4" cy="425.9" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<circle cx="1110.0" cy="407.0" r="4.5" fill="#C9893F" stroke="white" stroke-width="1"/>
+<path d="M 780.0 332.6 L 856.5 330.3 L 980.9 327.4 L 1039.4 324.4 L 1110.0 324.7" fill="none" stroke="#2A9D78" stroke-width="2.2"/>
+<circle cx="780.0" cy="332.6" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="856.5" cy="330.3" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="980.9" cy="327.4" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="1039.4" cy="324.4" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<circle cx="1110.0" cy="324.7" r="4.5" fill="#2A9D78" stroke="white" stroke-width="1"/>
+<path d="M 780.0 325.7 L 856.5 324.0 L 911.0 321.2" fill="none" stroke="#C44E52" stroke-width="2.2"/>
+<circle cx="780.0" cy="325.7" r="4.5" fill="#C44E52" stroke="white" stroke-width="1"/>
+<circle cx="856.5" cy="324.0" r="4.5" fill="#C44E52" stroke="white" stroke-width="1"/>
+<circle cx="911.0" cy="321.2" r="4.5" fill="#C44E52" stroke="white" stroke-width="1"/>
+<text x="780.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 780.0 502)">0.5B</text>
+<text x="856.5" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 856.4788404102844 502)">1.5B</text>
+<text x="911.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 910.9975123801295 502)">3B</text>
+<text x="980.9" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 980.8935782788022 502)">7B</text>
+<text x="1039.4" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 1039.4321266888574 502)">14B</text>
+<text x="1110.0" y="502.0" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" text-anchor="middle" fill="#6B7280" transform="rotate(-35 1110.0 502)">32B</text>
+<line x1="380" y1="598" x2="404" y2="598" stroke="#5A6E8C" stroke-width="3"/>
+<text x="411.0" y="602.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#253041">direct</text>
+<line x1="476" y1="598" x2="500" y2="598" stroke="#C9893F" stroke-width="3"/>
+<text x="507.0" y="602.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#253041">prompt</text>
+<line x1="572" y1="598" x2="596" y2="598" stroke="#2A9D78" stroke-width="3"/>
+<text x="603.0" y="602.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#253041">qlora</text>
+<line x1="668" y1="598" x2="692" y2="598" stroke="#C44E52" stroke-width="3"/>
+<text x="699.0" y="602.0" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#253041">full</text>
+</svg>

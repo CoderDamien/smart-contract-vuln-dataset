@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="660" viewBox="0 0 1120 660">
+<rect width="1120" height="660" rx="18" fill="white"/>
+<text x="560.0" y="36" font-family="Aptos, Calibri, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#243044">Qwen2.5-Coder Scaling Trends</text>
+<text x="209.66666666666666" y="66" font-family="Aptos, Calibri, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#243044">Has-vul F1</text>
+<line x1="55.0" y1="564.0" x2="364.3333333333333" y2="564.0" stroke="#D9DEE8" stroke-width="1"/>
+<text x="43.0" y="568.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.0</text>
+<line x1="55.0" y1="467.6" x2="364.3333333333333" y2="467.6" stroke="#D9DEE8" stroke-width="1"/>
+<text x="43.0" y="471.6" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.2</text>
+<line x1="55.0" y1="371.2" x2="364.3333333333333" y2="371.2" stroke="#D9DEE8" stroke-width="1"/>
+<text x="43.0" y="375.2" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.4</text>
+<line x1="55.0" y1="274.8" x2="364.3333333333333" y2="274.8" stroke="#D9DEE8" stroke-width="1"/>
+<text x="43.0" y="278.8" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.6</text>
+<line x1="55.0" y1="178.4" x2="364.3333333333333" y2="178.4" stroke="#D9DEE8" stroke-width="1"/>
+<text x="43.0" y="182.39999999999998" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.8</text>
+<line x1="55.0" y1="82.0" x2="364.3333333333333" y2="82.0" stroke="#D9DEE8" stroke-width="1"/>
+<text x="43.0" y="86.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">1.0</text>
+<path d="M 55.0 551.6 L 126.7 538.7 L 177.8 409.1 L 243.3 454.9 L 298.2 427.3 L 364.3 434.6" fill="none" stroke="#5B6C8F" stroke-width="2.6"/>
+<circle cx="55.0" cy="551.6" r="4.5" fill="#5B6C8F"/>
+<circle cx="126.7" cy="538.7" r="4.5" fill="#5B6C8F"/>
+<circle cx="177.8" cy="409.1" r="4.5" fill="#5B6C8F"/>
+<circle cx="243.3" cy="454.9" r="4.5" fill="#5B6C8F"/>
+<circle cx="298.2" cy="427.3" r="4.5" fill="#5B6C8F"/>
+<circle cx="364.3" cy="434.6" r="4.5" fill="#5B6C8F"/>
+<path d="M 55.0 547.1 L 126.7 544.3 L 177.8 477.6 L 243.3 498.5 L 298.2 477.5 L 364.3 444.8" fill="none" stroke="#D98C40" stroke-width="2.6"/>
+<circle cx="55.0" cy="547.1" r="4.5" fill="#D98C40"/>
+<circle cx="126.7" cy="544.3" r="4.5" fill="#D98C40"/>
+<circle cx="177.8" cy="477.6" r="4.5" fill="#D98C40"/>
+<circle cx="243.3" cy="498.5" r="4.5" fill="#D98C40"/>
+<circle cx="298.2" cy="477.5" r="4.5" fill="#D98C40"/>
+<circle cx="364.3" cy="444.8" r="4.5" fill="#D98C40"/>
+<path d="M 55.0 208.5 L 126.7 197.7 L 177.8 184.6 L 243.3 197.2 L 298.2 192.0 L 364.3 198.4" fill="none" stroke="#2E9F7D" stroke-width="2.6"/>
+<circle cx="55.0" cy="208.5" r="4.5" fill="#2E9F7D"/>
+<circle cx="126.7" cy="197.7" r="4.5" fill="#2E9F7D"/>
+<circle cx="177.8" cy="184.6" r="4.5" fill="#2E9F7D"/>
+<circle cx="243.3" cy="197.2" r="4.5" fill="#2E9F7D"/>
+<circle cx="298.2" cy="192.0" r="4.5" fill="#2E9F7D"/>
+<circle cx="364.3" cy="198.4" r="4.5" fill="#2E9F7D"/>
+<path d="M 55.0 142.0 L 126.7 141.9 L 177.8 142.6" fill="none" stroke="#C94545" stroke-width="2.6"/>
+<circle cx="55.0" cy="142.0" r="4.5" fill="#C94545"/>
+<circle cx="126.7" cy="141.9" r="4.5" fill="#C94545"/>
+<circle cx="177.8" cy="142.6" r="4.5" fill="#C94545"/>
+<text x="55.0" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">0.5B</text>
+<text x="126.6892564653979" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">1.5B</text>
+<text x="177.79362776642438" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">3B</text>
+<text x="243.31236428558435" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">7B</text>
+<text x="298.1848621891511" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">14B</text>
+<text x="364.3333333333333" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">32B</text>
+<text x="553.0" y="66" font-family="Aptos, Calibri, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#243044">Type macro-F1</text>
+<line x1="398.3333333333333" y1="564.0" x2="707.6666666666666" y2="564.0" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="398.3333333333333" y1="467.6" x2="707.6666666666666" y2="467.6" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="398.3333333333333" y1="371.2" x2="707.6666666666666" y2="371.2" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="398.3333333333333" y1="274.8" x2="707.6666666666666" y2="274.8" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="398.3333333333333" y1="178.4" x2="707.6666666666666" y2="178.4" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="398.3333333333333" y1="82.0" x2="707.6666666666666" y2="82.0" stroke="#D9DEE8" stroke-width="1"/>
+<path d="M 398.3 536.3 L 470.0 520.4 L 521.1 511.3 L 586.6 508.9 L 641.5 507.4 L 707.7 510.1" fill="none" stroke="#5B6C8F" stroke-width="2.6"/>
+<circle cx="398.3" cy="536.3" r="4.5" fill="#5B6C8F"/>
+<circle cx="470.0" cy="520.4" r="4.5" fill="#5B6C8F"/>
+<circle cx="521.1" cy="511.3" r="4.5" fill="#5B6C8F"/>
+<circle cx="586.6" cy="508.9" r="4.5" fill="#5B6C8F"/>
+<circle cx="641.5" cy="507.4" r="4.5" fill="#5B6C8F"/>
+<circle cx="707.7" cy="510.1" r="4.5" fill="#5B6C8F"/>
+<path d="M 398.3 537.4 L 470.0 537.8 L 521.1 534.3 L 586.6 537.9 L 641.5 535.8 L 707.7 538.6" fill="none" stroke="#D98C40" stroke-width="2.6"/>
+<circle cx="398.3" cy="537.4" r="4.5" fill="#D98C40"/>
+<circle cx="470.0" cy="537.8" r="4.5" fill="#D98C40"/>
+<circle cx="521.1" cy="534.3" r="4.5" fill="#D98C40"/>
+<circle cx="586.6" cy="537.9" r="4.5" fill="#D98C40"/>
+<circle cx="641.5" cy="535.8" r="4.5" fill="#D98C40"/>
+<circle cx="707.7" cy="538.6" r="4.5" fill="#D98C40"/>
+<path d="M 398.3 389.0 L 470.0 368.9 L 586.6 361.2 L 641.5 354.3 L 707.7 349.7" fill="none" stroke="#2E9F7D" stroke-width="2.6"/>
+<circle cx="398.3" cy="389.0" r="4.5" fill="#2E9F7D"/>
+<circle cx="470.0" cy="368.9" r="4.5" fill="#2E9F7D"/>
+<circle cx="586.6" cy="361.2" r="4.5" fill="#2E9F7D"/>
+<circle cx="641.5" cy="354.3" r="4.5" fill="#2E9F7D"/>
+<circle cx="707.7" cy="349.7" r="4.5" fill="#2E9F7D"/>
+<path d="M 398.3 334.8 L 470.0 336.1 L 521.1 340.4" fill="none" stroke="#C94545" stroke-width="2.6"/>
+<circle cx="398.3" cy="334.8" r="4.5" fill="#C94545"/>
+<circle cx="470.0" cy="336.1" r="4.5" fill="#C94545"/>
+<circle cx="521.1" cy="340.4" r="4.5" fill="#C94545"/>
+<text x="398.3333333333333" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">0.5B</text>
+<text x="470.02258979873125" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">1.5B</text>
+<text x="521.1269610997576" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">3B</text>
+<text x="586.6456976189177" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">7B</text>
+<text x="641.5181955224845" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">14B</text>
+<text x="707.6666666666666" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">32B</text>
+<text x="896.3333333333333" y="66" font-family="Aptos, Calibri, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#243044">Line strict-F1</text>
+<line x1="741.6666666666666" y1="564.0" x2="1051.0" y2="564.0" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="741.6666666666666" y1="467.6" x2="1051.0" y2="467.6" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="741.6666666666666" y1="371.2" x2="1051.0" y2="371.2" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="741.6666666666666" y1="274.8" x2="1051.0" y2="274.8" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="741.6666666666666" y1="178.4" x2="1051.0" y2="178.4" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="741.6666666666666" y1="82.0" x2="1051.0" y2="82.0" stroke="#D9DEE8" stroke-width="1"/>
+<path d="M 741.7 542.2 L 813.4 537.5 L 864.5 538.4 L 930.0 535.6 L 984.9 540.0 L 1051.0 530.7" fill="none" stroke="#5B6C8F" stroke-width="2.6"/>
+<circle cx="741.7" cy="542.2" r="4.5" fill="#5B6C8F"/>
+<circle cx="813.4" cy="537.5" r="4.5" fill="#5B6C8F"/>
+<circle cx="864.5" cy="538.4" r="4.5" fill="#5B6C8F"/>
+<circle cx="930.0" cy="535.6" r="4.5" fill="#5B6C8F"/>
+<circle cx="984.9" cy="540.0" r="4.5" fill="#5B6C8F"/>
+<circle cx="1051.0" cy="530.7" r="4.5" fill="#5B6C8F"/>
+<path d="M 741.7 538.9 L 813.4 533.5 L 864.5 541.0 L 930.0 530.6 L 984.9 540.7 L 1051.0 528.7" fill="none" stroke="#D98C40" stroke-width="2.6"/>
+<circle cx="741.7" cy="538.9" r="4.5" fill="#D98C40"/>
+<circle cx="813.4" cy="533.5" r="4.5" fill="#D98C40"/>
+<circle cx="864.5" cy="541.0" r="4.5" fill="#D98C40"/>
+<circle cx="930.0" cy="530.6" r="4.5" fill="#D98C40"/>
+<circle cx="984.9" cy="540.7" r="4.5" fill="#D98C40"/>
+<circle cx="1051.0" cy="528.7" r="4.5" fill="#D98C40"/>
+<path d="M 741.7 441.3 L 813.4 440.4 L 930.0 430.8 L 984.9 431.2 L 1051.0 430.5" fill="none" stroke="#2E9F7D" stroke-width="2.6"/>
+<circle cx="741.7" cy="441.3" r="4.5" fill="#2E9F7D"/>
+<circle cx="813.4" cy="440.4" r="4.5" fill="#2E9F7D"/>
+<circle cx="930.0" cy="430.8" r="4.5" fill="#2E9F7D"/>
+<circle cx="984.9" cy="431.2" r="4.5" fill="#2E9F7D"/>
+<circle cx="1051.0" cy="430.5" r="4.5" fill="#2E9F7D"/>
+<path d="M 741.7 423.0 L 813.4 424.2 L 864.5 421.6" fill="none" stroke="#C94545" stroke-width="2.6"/>
+<circle cx="741.7" cy="423.0" r="4.5" fill="#C94545"/>
+<circle cx="813.4" cy="424.2" r="4.5" fill="#C94545"/>
+<circle cx="864.5" cy="421.6" r="4.5" fill="#C94545"/>
+<text x="741.6666666666666" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">0.5B</text>
+<text x="813.3559231320645" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">1.5B</text>
+<text x="864.460294433091" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">3B</text>
+<text x="929.979030952251" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">7B</text>
+<text x="984.8515288558178" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">14B</text>
+<text x="1051.0" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">32B</text>
+<line x1="350.0" y1="630" x2="374.0" y2="630" stroke="#5B6C8F" stroke-width="3"/>
+<text x="382.0" y="634" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">direct</text>
+<line x1="490.0" y1="630" x2="514.0" y2="630" stroke="#D98C40" stroke-width="3"/>
+<text x="522.0" y="634" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">prompt</text>
+<line x1="630.0" y1="630" x2="654.0" y2="630" stroke="#2E9F7D" stroke-width="3"/>
+<text x="662.0" y="634" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">qlora</text>
+<line x1="770.0" y1="630" x2="794.0" y2="630" stroke="#C94545" stroke-width="3"/>
+<text x="802.0" y="634" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">full</text>
+</svg>

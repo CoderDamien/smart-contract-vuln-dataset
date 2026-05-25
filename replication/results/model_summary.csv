@@ -1,0 +1,33 @@
+﻿系列,模型,应跑总数,已完成,运行中,缺失,失败,阻塞,不支持/需适配,未完成任务名称
+传统基准,microsoft/codebert-base,3,3,0,0,0,0,0,
+传统基准,microsoft/graphcodebert-base,3,3,0,0,0,0,0,
+传统基准,microsoft/unixcoder-base,3,3,0,0,0,0,0,
+传统基准,Salesforce/codet5-base,3,2,1,0,0,0,0,vul_line/full:运行中
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-0.5B-Instruct,12,12,0,0,0,0,0,
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-1.5B-Instruct,12,12,0,0,0,0,0,
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-3B-Instruct,12,12,0,0,0,0,0,
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-7B-Instruct,9,9,0,0,0,0,0,
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-14B-Instruct,9,9,0,0,0,0,0,
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-32B-Instruct,9,7,2,0,0,0,0,vul_type/qlora:运行中; vul_line/qlora:运行中
+DeepSeek-Coder,deepseek-ai/deepseek-coder-1.3b-base,12,12,0,0,0,0,0,
+DeepSeek-Coder,deepseek-ai/deepseek-coder-6.7b-base,9,9,0,0,0,0,0,
+DeepSeek-Coder,deepseek-ai/deepseek-coder-33b-base,9,6,3,0,0,0,0,vul_line/direct:运行中; vul_line/prompt:运行中; vul_line/qlora:运行中
+StarCoder2,bigcode/starcoder2-3b,12,12,0,0,0,0,0,
+StarCoder2,bigcode/starcoder2-7b,9,9,0,0,0,0,0,
+StarCoder2,bigcode/starcoder2-15b,9,9,0,0,0,0,0,
+CodeGemma,google/codegemma-2b,12,12,0,0,0,0,0,
+CodeGemma,google/codegemma-7b,9,9,0,0,0,0,0,
+Granite Code,ibm-granite/granite-3b-code-base,12,12,0,0,0,0,0,
+Granite Code,ibm-granite/granite-8b-code-base,9,9,0,0,0,0,0,
+Granite Code,ibm-granite/granite-20b-code-base,9,9,0,0,0,0,0,
+CodeLlama,codellama/CodeLlama-7b-hf,9,8,1,0,0,0,0,vul_line/qlora:运行中
+CodeLlama,codellama/CodeLlama-13b-hf,9,9,0,0,0,0,0,
+CodeLlama,codellama/CodeLlama-34b-hf,9,8,1,0,0,0,0,vul_line/qlora:运行中
+WizardCoder,vanillaOVO/WizardCoder-Python-7B-V1.0,9,9,0,0,0,0,0,
+API,gpt-5.1,6,0,0,6,0,0,0,has_vul/direct:缺失; has_vul/prompt:缺失; vul_type/direct:缺失; vul_type/prompt:缺失; vul_line/direct:缺失; vul_line/prompt:缺失
+API,gpt-4.1,6,0,0,6,0,0,0,has_vul/direct:缺失; has_vul/prompt:缺失; vul_type/direct:缺失; vul_type/prompt:缺失; vul_line/direct:缺失; vul_line/prompt:缺失
+API,gpt-4.1-mini,6,0,0,6,0,0,0,has_vul/direct:缺失; has_vul/prompt:缺失; vul_type/direct:缺失; vul_type/prompt:缺失; vul_line/direct:缺失; vul_line/prompt:缺失
+API,claude-opus-4-1-20250805,6,0,0,6,0,0,0,has_vul/direct:缺失; has_vul/prompt:缺失; vul_type/direct:缺失; vul_type/prompt:缺失; vul_line/direct:缺失; vul_line/prompt:缺失
+API,claude-sonnet-4-20250514,6,0,0,6,0,0,0,has_vul/direct:缺失; has_vul/prompt:缺失; vul_type/direct:缺失; vul_type/prompt:缺失; vul_line/direct:缺失; vul_line/prompt:缺失
+API,gemini-2.5-pro,6,0,0,6,0,0,0,has_vul/direct:缺失; has_vul/prompt:缺失; vul_type/direct:缺失; vul_type/prompt:缺失; vul_line/direct:缺失; vul_line/prompt:缺失
+API,gemini-2.5-flash,6,0,0,6,0,0,0,has_vul/direct:缺失; has_vul/prompt:缺失; vul_type/direct:缺失; vul_type/prompt:缺失; vul_line/direct:缺失; vul_line/prompt:缺失

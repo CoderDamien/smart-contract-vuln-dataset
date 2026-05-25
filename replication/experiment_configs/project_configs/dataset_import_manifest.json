@@ -1,0 +1,121 @@
+{
+  "version": "draft-v1",
+  "target_root": "data/staging",
+  "sources": [
+    {
+      "source_id": "scrawld",
+      "display_name": "ScrawlD",
+      "tier": "silver",
+      "priority": "high",
+      "ingest_status": "planned",
+      "raw_root": "data/external/scrawld/raw",
+      "normalized_root": "data/staging/scrawld",
+      "preferred_granularity": "contract",
+      "supports_tasks": [
+        "has_vul",
+        "vul_type",
+        "vul_line"
+      ],
+      "notes": [
+        "Primary target source for denial_service and front_running candidate expansion.",
+        "Map DOS into denial_service and TimeO/TOD-like labels into front_running.",
+        "Keep metadata source names because upstream ScrawlD layouts vary."
+      ]
+    },
+    {
+      "source_id": "dappscan",
+      "display_name": "DAppSCAN",
+      "tier": "silver",
+      "priority": "high",
+      "ingest_status": "planned",
+      "raw_root": "data/external/dappscan/raw",
+      "normalized_root": "data/staging/dappscan",
+      "preferred_granularity": "file",
+      "supports_tasks": [
+        "has_vul",
+        "vul_type"
+      ],
+      "notes": [
+        "Use DAppSCAN-source first.",
+        "Initial importer reads SWCsource JSON reports and maps supported SWC findings into the project label space.",
+        "Stage-1 importer outputs file-level normalized JSON and keeps function_split_pending=true."
+      ]
+    },
+    {
+      "source_id": "slither_audited_smart_contracts",
+      "display_name": "Slither Audited Smart Contracts",
+      "tier": "bronze",
+      "priority": "high",
+      "ingest_status": "planned",
+      "raw_root": "data/external/slither_audited_smart_contracts/raw",
+      "normalized_root": "data/staging/slither_audited_smart_contracts",
+      "preferred_granularity": "contract",
+      "supports_tasks": [
+        "has_vul",
+        "vul_type"
+      ],
+      "notes": [
+        "Use parquet shards from the Hugging Face dataset mwritescode/slither-audited-smart-contracts.",
+        "Stage-1 importer derives clean/vulnerable labels from Slither detector results.",
+        "Mapped detector labels enter the project taxonomy; unsupported findings are folded into other."
+      ]
+    },
+    {
+      "source_id": "smart_contract_vulndb",
+      "display_name": "smart-contract-vulndb",
+      "tier": "bronze",
+      "priority": "high",
+      "ingest_status": "planned",
+      "raw_root": "data/external/smart_contract_vulndb/raw",
+      "normalized_root": "data/staging/smart_contract_vulndb",
+      "preferred_granularity": "finding",
+      "supports_tasks": [
+        "vul_type"
+      ],
+      "notes": [
+        "Use issue snapshot json files such as vulns-1.json as a low-frequency finding source.",
+        "Current importer builds finding-level samples for front_running and denial_service candidate mining.",
+        "This source is for realistic finding text and downstream review, not direct line-level training."
+      ]
+    },
+    {
+      "source_id": "smartbugs_curated",
+      "display_name": "SmartBugs Curated",
+      "tier": "gold",
+      "priority": "high",
+      "ingest_status": "planned",
+      "raw_root": "data/external/smartbugs_curated/raw",
+      "normalized_root": "data/staging/smartbugs_curated",
+      "preferred_granularity": "contract",
+      "supports_tasks": [
+        "has_vul",
+        "vul_type",
+        "vul_line"
+      ],
+      "notes": [
+        "First external dataset to ingest.",
+        "Must check overlap with current base dataset via source comments and dedup hashes.",
+        "Stage-1 importer outputs contract-level normalized JSON and keeps function_split_pending=true."
+      ]
+    },
+    {
+      "source_id": "solidifi_benchmark",
+      "display_name": "SolidiFI Benchmark",
+      "tier": "silver",
+      "priority": "high",
+      "ingest_status": "planned",
+      "raw_root": "data/external/solidifi_benchmark/raw",
+      "normalized_root": "data/staging/solidifi_benchmark",
+      "preferred_granularity": "contract",
+      "supports_tasks": [
+        "has_vul",
+        "vul_type",
+        "vul_line"
+      ],
+      "notes": [
+        "Use bug injection logs to recover type and location metadata.",
+        "Keep synthetic-source flag for downstream experiments."
+      ]
+    }
+  ]
+}

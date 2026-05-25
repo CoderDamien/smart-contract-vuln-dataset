@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="600" viewBox="0 0 920 600">
+<rect width="920" height="600" rx="18" fill="white"/>
+<text x="460.0" y="36" font-family="Aptos, Calibri, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#243044">Family-mode Mean Performance Heatmap</text>
+<text x="302.5" y="58" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#243044">direct</text>
+<text x="447.5" y="58" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#243044">prompt</text>
+<text x="592.5" y="58" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#243044">qlora</text>
+<text x="737.5" y="58" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#243044">full</text>
+<text x="216" y="99" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">CodeGemma</text>
+<rect x="230" y="78" width="141" height="28" rx="5" fill="rgb(224,241,236)" stroke="white"/>
+<text x="302.5" y="98" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.11</text>
+<rect x="375" y="78" width="141" height="28" rx="5" fill="rgb(222,240,234)" stroke="white"/>
+<text x="447.5" y="98" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.12</text>
+<rect x="520" y="78" width="141" height="28" rx="5" fill="rgb(152,217,181)" stroke="white"/>
+<text x="592.5" y="98" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.53</text>
+<rect x="665" y="78" width="141" height="28" rx="5" fill="rgb(147,215,176)" stroke="white"/>
+<text x="737.5" y="98" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.56</text>
+<text x="216" y="131" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">CodeLlama</text>
+<rect x="230" y="110" width="141" height="28" rx="5" fill="rgb(224,241,235)" stroke="white"/>
+<text x="302.5" y="130" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.12</text>
+<rect x="375" y="110" width="141" height="28" rx="5" fill="rgb(221,240,233)" stroke="white"/>
+<text x="447.5" y="130" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.13</text>
+<rect x="520" y="110" width="141" height="28" rx="5" fill="rgb(161,219,187)" stroke="white"/>
+<text x="592.5" y="130" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.48</text>
+<rect x="665" y="110" width="141" height="28" rx="5" fill="#EEF1F6" stroke="white"/>
+<text x="737.5" y="130" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">-</text>
+<text x="216" y="163" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">DeepSeek-Coder</text>
+<rect x="230" y="142" width="141" height="28" rx="5" fill="rgb(230,243,240)" stroke="white"/>
+<text x="302.5" y="162" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.08</text>
+<rect x="375" y="142" width="141" height="28" rx="5" fill="rgb(227,242,238)" stroke="white"/>
+<text x="447.5" y="162" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.10</text>
+<rect x="520" y="142" width="141" height="28" rx="5" fill="rgb(181,227,203)" stroke="white"/>
+<text x="592.5" y="162" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.36</text>
+<rect x="665" y="142" width="141" height="28" rx="5" fill="rgb(146,214,175)" stroke="white"/>
+<text x="737.5" y="162" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.57</text>
+<text x="216" y="195" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">Granite Code</text>
+<rect x="230" y="174" width="141" height="28" rx="5" fill="rgb(218,239,231)" stroke="white"/>
+<text x="302.5" y="194" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.15</text>
+<rect x="375" y="174" width="141" height="28" rx="5" fill="rgb(217,238,230)" stroke="white"/>
+<text x="447.5" y="194" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.16</text>
+<rect x="520" y="174" width="141" height="28" rx="5" fill="rgb(166,221,191)" stroke="white"/>
+<text x="592.5" y="194" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.46</text>
+<rect x="665" y="174" width="141" height="28" rx="5" fill="rgb(144,214,175)" stroke="white"/>
+<text x="737.5" y="194" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.58</text>
+<text x="216" y="227" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">Qwen2.5-Coder</text>
+<rect x="230" y="206" width="141" height="28" rx="5" fill="rgb(220,239,232)" stroke="white"/>
+<text x="302.5" y="226" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.14</text>
+<rect x="375" y="206" width="141" height="28" rx="5" fill="rgb(224,241,236)" stroke="white"/>
+<text x="447.5" y="226" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.11</text>
+<rect x="520" y="206" width="141" height="28" rx="5" fill="rgb(152,217,180)" stroke="white"/>
+<text x="592.5" y="226" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.54</text>
+<rect x="665" y="206" width="141" height="28" rx="5" fill="rgb(144,214,174)" stroke="white"/>
+<text x="737.5" y="226" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.58</text>
+<text x="216" y="259" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">StarCoder2</text>
+<rect x="230" y="238" width="141" height="28" rx="5" fill="rgb(227,242,238)" stroke="white"/>
+<text x="302.5" y="258" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.09</text>
+<rect x="375" y="238" width="141" height="28" rx="5" fill="rgb(225,241,237)" stroke="white"/>
+<text x="447.5" y="258" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.11</text>
+<rect x="520" y="238" width="141" height="28" rx="5" fill="rgb(163,220,189)" stroke="white"/>
+<text x="592.5" y="258" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.47</text>
+<rect x="665" y="238" width="141" height="28" rx="5" fill="rgb(147,215,177)" stroke="white"/>
+<text x="737.5" y="258" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.56</text>
+<text x="216" y="291" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">WizardCoder</text>
+<rect x="230" y="270" width="141" height="28" rx="5" fill="rgb(227,242,238)" stroke="white"/>
+<text x="302.5" y="290" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.10</text>
+<rect x="375" y="270" width="141" height="28" rx="5" fill="rgb(219,239,232)" stroke="white"/>
+<text x="447.5" y="290" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.14</text>
+<rect x="520" y="270" width="141" height="28" rx="5" fill="rgb(173,224,197)" stroke="white"/>
+<text x="592.5" y="290" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.41</text>
+<rect x="665" y="270" width="141" height="28" rx="5" fill="#EEF1F6" stroke="white"/>
+<text x="737.5" y="290" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">-</text>
+<text x="216" y="323" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#243044">传统基准</text>
+<rect x="230" y="302" width="141" height="28" rx="5" fill="#EEF1F6" stroke="white"/>
+<text x="302.5" y="322" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">-</text>
+<rect x="375" y="302" width="141" height="28" rx="5" fill="#EEF1F6" stroke="white"/>
+<text x="447.5" y="322" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">-</text>
+<rect x="520" y="302" width="141" height="28" rx="5" fill="#EEF1F6" stroke="white"/>
+<text x="592.5" y="322" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">-</text>
+<rect x="665" y="302" width="141" height="28" rx="5" fill="rgb(149,215,178)" stroke="white"/>
+<text x="737.5" y="322" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#243044">0.55</text>
+</svg>

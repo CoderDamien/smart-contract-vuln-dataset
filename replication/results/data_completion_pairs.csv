@@ -1,0 +1,7 @@
+﻿模型,任务,方法,补齐前run（原始3000条）,补齐前metrics状态,补齐后run（常规大体量）,补齐后metrics状态,配对状态,说明
+Qwen/Qwen2.5-Coder-3B-Instruct,vul_type,qlora,original_qwen25coder3b_vtype_vline_qlora_e1__vul_type__qlora,completed,machine_a_qwen25coder3b_e1__vul_type__qlora,completed,完整配对,补齐前=原始3000条；补齐后=常规实验大体量数据（约24000+24000+12000）。
+Qwen/Qwen2.5-Coder-3B-Instruct,vul_line,qlora,original_qwen25coder3b_vtype_vline_qlora_e1__vul_line__qlora,completed,machine_a_qwen25coder3b_e1__vul_line__qlora,completed,完整配对,补齐前=原始3000条；补齐后=常规实验大体量数据（约24000+24000+12000）。
+microsoft/codebert-base,vul_type,full,original_codebert_base_vul_type_full_e1__vul_type__full,completed,machine_b_codebert_base_full_e1__vul_type__full,completed,完整配对,补齐前=原始3000条；补齐后=常规实验大体量数据（约24000+24000+12000）。
+microsoft/codebert-base,vul_line,full,original_codebert_base_vul_line_full_e1__vul_line__full,completed,machine_b_codebert_base_full_e1__vul_line__full,completed,完整配对,补齐前=原始3000条；补齐后=常规实验大体量数据（约24000+24000+12000）。
+microsoft/graphcodebert-base,vul_type,full,original_graphcodebert_base_vul_type_full_e1__vul_type__full,completed,machine_b_graphcodebert_base_full_e1__vul_type__full,completed,完整配对,补齐前=原始3000条；补齐后=常规实验大体量数据（约24000+24000+12000）。
+microsoft/graphcodebert-base,vul_line,full,original_graphcodebert_base_vul_line_full_e1__vul_line__full,completed,machine_b_graphcodebert_base_full_e1__vul_line__full,completed,完整配对,补齐前=原始3000条；补齐后=常规实验大体量数据（约24000+24000+12000）。

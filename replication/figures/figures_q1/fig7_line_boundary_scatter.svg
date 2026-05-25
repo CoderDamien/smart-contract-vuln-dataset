@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="620" viewBox="0 0 880 620">
+<rect width="880" height="620" rx="18" fill="white"/>
+<text x="440.0" y="36" font-family="Aptos, Calibri, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#243044">Line Localization: Exactness vs Contract-level Hit</text>
+<line x1="90.0" y1="70" x2="90.0" y2="542" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="90" y1="542.0" x2="830" y2="542.0" stroke="#D9DEE8" stroke-width="1"/>
+<text x="90.0" y="568" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">0.0</text>
+<text x="76" y="546.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.0</text>
+<line x1="238.0" y1="70" x2="238.0" y2="542" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="90" y1="447.6" x2="830" y2="447.6" stroke="#D9DEE8" stroke-width="1"/>
+<text x="238.0" y="568" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">0.2</text>
+<text x="76" y="451.6" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.2</text>
+<line x1="386.0" y1="70" x2="386.0" y2="542" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="90" y1="353.2" x2="830" y2="353.2" stroke="#D9DEE8" stroke-width="1"/>
+<text x="386.0" y="568" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">0.4</text>
+<text x="76" y="357.2" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.4</text>
+<line x1="534.0" y1="70" x2="534.0" y2="542" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="90" y1="258.8" x2="830" y2="258.8" stroke="#D9DEE8" stroke-width="1"/>
+<text x="534.0" y="568" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">0.6</text>
+<text x="76" y="262.8" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.6</text>
+<line x1="682.0" y1="70" x2="682.0" y2="542" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="90" y1="164.4" x2="830" y2="164.4" stroke="#D9DEE8" stroke-width="1"/>
+<text x="682.0" y="568" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">0.8</text>
+<text x="76" y="168.39999999999998" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">0.8</text>
+<line x1="830.0" y1="70" x2="830.0" y2="542" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="90" y1="70.0" x2="830" y2="70.0" stroke="#D9DEE8" stroke-width="1"/>
+<text x="830.0" y="568" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="middle" fill="#667085">1.0</text>
+<text x="76" y="74.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="end" fill="#667085">1.0</text>
+<text x="460.0" y="596" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Strict F1</text>
+<text x="24" y="306.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#243044">Contract Hit</text>
+<circle cx="125.3" cy="429.1" r="6.4" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="298.2" cy="154.2" r="6.4" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="121.8" cy="419.2" r="6.4" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="292.9" cy="154.8" r="6.4" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="131.4" cy="406.3" r="8.6" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="128.5" cy="426.8" r="8.6" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="301.4" cy="153.6" r="8.6" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="124.7" cy="439.6" r="9.8" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="126.1" cy="443.2" r="9.8" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="128.8" cy="444.3" r="9.8" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="128.8" cy="426.2" r="11.8" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="130.1" cy="444.9" r="11.8" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="295.5" cy="154.2" r="11.8" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="128.8" cy="444.3" r="8.6" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="126.9" cy="443.7" r="8.6" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="285.1" cy="162.4" r="8.6" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="132.0" cy="396.9" r="5.8" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="303.3" cy="146.6" r="5.8" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="133.0" cy="402.8" r="5.8" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="130.6" cy="440.8" r="5.8" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="130.4" cy="429.7" r="11.8" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="130.1" cy="440.2" r="11.8" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="292.6" cy="156.0" r="11.8" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="125.0" cy="408.1" r="8.5" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="132.0" cy="404.0" r="8.5" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="131.2" cy="424.4" r="8.5" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="128.0" cy="444.9" r="10.7" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="122.1" cy="436.7" r="10.7" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="128.8" cy="444.3" r="10.7" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="128.8" cy="444.3" r="7.0" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="307.3" cy="149.5" r="7.0" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="128.8" cy="444.3" r="7.0" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="136.2" cy="420.3" r="7.0" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="129.0" cy="444.9" r="8.8" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="125.0" cy="422.7" r="8.8" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="288.6" cy="166.5" r="8.8" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="123.4" cy="415.1" r="4.9" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="306.5" cy="143.1" r="4.9" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="128.5" cy="438.5" r="4.9" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="278.4" cy="169.4" r="4.9" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="130.6" cy="395.8" r="6.0" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="304.6" cy="151.3" r="6.0" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="136.8" cy="368.9" r="6.0" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="279.8" cy="168.3" r="6.0" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="126.9" cy="412.7" r="10.0" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="125.8" cy="392.9" r="10.0" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="293.9" cy="154.2" r="10.0" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="141.1" cy="346.1" r="11.7" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="144.3" cy="345.5" r="11.7" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="295.0" cy="156.0" r="11.7" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="129.3" cy="445.5" r="7.0" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="308.6" cy="143.7" r="7.0" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="125.3" cy="412.7" r="7.0" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="133.6" cy="396.9" r="8.6" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="141.3" cy="351.3" r="8.6" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="294.5" cy="157.7" r="8.6" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="137.6" cy="393.4" r="10.1" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="119.1" cy="437.9" r="10.1" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="270.7" cy="158.9" r="10.1" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="106.8" cy="444.3" r="7.0" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="298.0" cy="158.3" r="7.0" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="138.9" cy="385.3" r="7.0" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="246.6" cy="190.5" r="7.0" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="121.0" cy="432.0" r="8.6" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="122.6" cy="443.2" r="8.6" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="255.7" cy="173.5" r="8.6" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="131.2" cy="443.2" r="8.6" fill="#5B6C8F" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="129.8" cy="410.4" r="8.6" fill="#D98C40" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="126.1" cy="425.6" r="8.6" fill="#2E9F7D" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="287.0" cy="163.0" r="5.5" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="288.1" cy="156.0" r="5.5" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="291.8" cy="160.1" r="5.5" fill="#C94545" fill-opacity="0.68" stroke="white" stroke-width="1.5"/>
+<circle cx="555" cy="596" r="6" fill="#5B6C8F"/>
+<text x="566" y="600" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">direct</text>
+<circle cx="633" cy="596" r="6" fill="#D98C40"/>
+<text x="644" y="600" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">prompt</text>
+<circle cx="711" cy="596" r="6" fill="#2E9F7D"/>
+<text x="722" y="600" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">qlora</text>
+<circle cx="789" cy="596" r="6" fill="#C94545"/>
+<text x="800" y="600" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start" fill="#243044">full</text>
+</svg>

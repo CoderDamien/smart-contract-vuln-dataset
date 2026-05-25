@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560">
+<rect width="980" height="560" rx="18" fill="white"/>
+<text x="490.0" y="36" font-family="Aptos, Calibri, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#243044">Non-equivalent Literature Anchors</text>
+<text x="20" y="269.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#243044">Reported F1</text>
+<line x1="88" y1="468.0" x2="944" y2="468.0" stroke="#D9DEE8" stroke-width="1"/>
+<text x="74" y="472.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#667085">0.0</text>
+<line x1="88" y1="388.4" x2="944" y2="388.4" stroke="#D9DEE8" stroke-width="1"/>
+<text x="74" y="392.4" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#667085">0.2</text>
+<line x1="88" y1="308.8" x2="944" y2="308.8" stroke="#D9DEE8" stroke-width="1"/>
+<text x="74" y="312.8" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#667085">0.4</text>
+<line x1="88" y1="229.2" x2="944" y2="229.2" stroke="#D9DEE8" stroke-width="1"/>
+<text x="74" y="233.2" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#667085">0.6</text>
+<line x1="88" y1="149.6" x2="944" y2="149.6" stroke="#D9DEE8" stroke-width="1"/>
+<text x="74" y="153.60000000000002" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#667085">0.8</text>
+<line x1="88" y1="70.0" x2="944" y2="70.0" stroke="#D9DEE8" stroke-width="1"/>
+<text x="74" y="74.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="end" fill="#667085">1.0</text>
+<rect x="126.5" y="460.4" width="27.0" height="7.6" rx="4" fill="#3B82F6"/>
+<rect x="233.5" y="197.4" width="27.0" height="270.6" rx="4" fill="#3B82F6"/>
+<rect x="340.5" y="159.2" width="27.0" height="308.8" rx="4" fill="#3B82F6"/>
+<rect x="447.5" y="119.5" width="27.0" height="348.5" rx="4" fill="#3B82F6"/>
+<rect x="554.5" y="106.2" width="27.0" height="361.8" rx="4" fill="#3B82F6"/>
+<rect x="661.5" y="105.0" width="27.0" height="363.0" rx="4" fill="#3B82F6"/>
+<rect x="768.5" y="95.1" width="27.0" height="372.9" rx="4" fill="#3B82F6"/>
+<rect x="875.5" y="79.6" width="27.0" height="388.4" rx="4" fill="#3B82F6"/>
+<text x="141.5" y="506" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#243044">GPT-4o real-world sample</text>
+<text x="248.5" y="506" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#243044">Detect Llama</text>
+<text x="355.5" y="506" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#243044">GPT-3.5FT</text>
+<text x="462.5" y="506" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#243044">Our best has_vul</text>
+<text x="569.5" y="506" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#243044">SmartConDetect</text>
+<text x="676.5" y="506" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#243044">SmartBugBERT</text>
+<text x="783.5" y="506" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#243044">G-Scan line</text>
+<text x="890.5" y="506" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#243044">SCVDIE</text>
+<rect x="88" y="532" width="14" height="14" rx="3" fill="#3B82F6"/>
+<text x="108" y="544" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">F1</text>
+</svg>

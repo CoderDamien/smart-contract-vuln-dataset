@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="640" viewBox="0 0 720 640">
+<rect width="720" height="640" rx="18" fill="white"/>
+<text x="360.0" y="36" font-family="Aptos, Calibri, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#243044">Capability Profile by Mode</text>
+<polygon points="360.0,287.0 395.2,303.9 403.9,342.0 379.5,372.5 340.5,372.5 316.1,342.0 324.8,303.9" fill="none" stroke="#D9DEE8" stroke-width="1"/>
+<polygon points="360.0,242.0 430.4,275.9 447.7,352.0 399.0,413.1 321.0,413.1 272.3,352.0 289.6,275.9" fill="none" stroke="#D9DEE8" stroke-width="1"/>
+<polygon points="360.0,197.0 465.5,247.8 491.6,362.0 418.6,453.6 301.4,453.6 228.4,362.0 254.5,247.8" fill="none" stroke="#D9DEE8" stroke-width="1"/>
+<polygon points="360.0,152.0 500.7,219.8 535.5,372.1 438.1,494.2 281.9,494.2 184.5,372.1 219.3,219.8" fill="none" stroke="#D9DEE8" stroke-width="1"/>
+<polygon points="360.0,107.0 535.9,191.7 579.4,382.1 457.6,534.7 262.4,534.7 140.6,382.1 184.1,191.7" fill="none" stroke="#D9DEE8" stroke-width="1"/>
+<line x1="360.0" y1="332.0" x2="360.0" y2="107.0" stroke="#D9DEE8" stroke-width="1"/>
+<text x="360.0" y="67.0" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#243044">Has-F1</text>
+<line x1="360.0" y1="332.0" x2="535.9" y2="191.7" stroke="#D9DEE8" stroke-width="1"/>
+<text x="570.3126687839" y="168.28124330000068" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#243044">Type-F1</text>
+<line x1="360.0" y1="332.0" x2="579.4" y2="382.1" stroke="#D9DEE8" stroke-width="1"/>
+<text x="622.2556083769106" y="395.85813123424856" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#243044">Type-macro</text>
+<line x1="360.0" y1="332.0" x2="457.6" y2="534.7" stroke="#D9DEE8" stroke-width="1"/>
+<text x="476.71472582262317" y="578.3606254657508" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#243044">Type-ML</text>
+<line x1="360.0" y1="332.0" x2="262.4" y2="534.7" stroke="#D9DEE8" stroke-width="1"/>
+<text x="243.2852741773769" y="578.3606254657508" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#243044">Line-strict</text>
+<line x1="360.0" y1="332.0" x2="140.6" y2="382.1" stroke="#D9DEE8" stroke-width="1"/>
+<text x="97.74439162308943" y="395.8581312342486" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#243044">Line-tolerant</text>
+<line x1="360.0" y1="332.0" x2="184.1" y2="191.7" stroke="#D9DEE8" stroke-width="1"/>
+<text x="149.68733121609995" y="168.2812433000007" font-family="Aptos, Calibri, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle" fill="#243044">Hit</text>
+<polygon points="360.0,296.0 395.8,303.4 378.9,336.3 369.8,352.4 355.0,342.5 336.9,337.3 314.9,296.0" fill="#5B6C8F" fill-opacity="0.16" stroke="#5B6C8F" stroke-width="2.4"/>
+<polygon points="360.0,289.6 390.6,307.6 371.7,334.7 369.7,352.1 354.8,342.8 335.2,337.7 312.7,294.3" fill="#D98C40" fill-opacity="0.16" stroke="#D98C40" stroke-width="2.4"/>
+<polygon points="360.0,167.3 458.7,253.3 444.4,351.3 394.4,403.5 340.5,372.4 295.1,346.8 248.9,243.4" fill="#2E9F7D" fill-opacity="0.16" stroke="#2E9F7D" stroke-width="2.4"/>
+<polygon points="360.0,139.3 470.2,244.1 456.7,354.1 399.4,413.9 332.4,389.3 274.8,351.5 214.9,216.3" fill="#C94545" fill-opacity="0.16" stroke="#C94545" stroke-width="2.4"/>
+<rect x="76" y="590" width="13" height="13" rx="3" fill="#5B6C8F"/>
+<text x="96" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">direct</text>
+<rect x="76" y="610" width="13" height="13" rx="3" fill="#D98C40"/>
+<text x="96" y="622" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">prompt</text>
+<rect x="236" y="590" width="13" height="13" rx="3" fill="#2E9F7D"/>
+<text x="256" y="602" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">qlora</text>
+<rect x="236" y="610" width="13" height="13" rx="3" fill="#C94545"/>
+<text x="256" y="622" font-family="Aptos, Calibri, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#243044">full</text>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "version": "paper-release-v1",
+  "task_labels": [
+    "access_control",
+    "arithmetic",
+    "bad_randomness",
+    "denial_service",
+    "front_running",
+    "reentrancy",
+    "time_manipulation",
+    "unchecked_low_calls"
+  ],
+  "notes": [
+    "The paper reports the eight normalized vulnerability categories listed in task_labels.",
+    "Labels mapped to other, unknown, ignore, or safe are not part of the main vul_type label space."
+  ]
+}

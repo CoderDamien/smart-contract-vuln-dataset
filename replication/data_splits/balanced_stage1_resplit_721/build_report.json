@@ -1,0 +1,192 @@
+{
+  "input_root": "data\\prepared\\balanced_stage1",
+  "output_root": "data\\prepared\\balanced_stage1_resplit_721",
+  "ratios": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1
+  },
+  "group_split": {
+    "enabled": true,
+    "group_key": "dedup_hash_normalized|dedup_hash_raw|context_sha256"
+  },
+  "reports": [
+    {
+      "dataset": "has_vul_721_stratified_v1",
+      "splits": {
+        "train": {
+          "rows": 17411,
+          "binary_counts": {
+            "clean": 8679,
+            "vulnerable": 8732
+          },
+          "source_counts": {
+            "dappscan": 318,
+            "legacy": 1519,
+            "scrawld": 1365,
+            "slither_audited_smart_contracts": 13351,
+            "solidifi_benchmark": 858
+          }
+        },
+        "val": {
+          "rows": 4667,
+          "binary_counts": {
+            "clean": 2298,
+            "vulnerable": 2369
+          },
+          "source_counts": {
+            "dappscan": 89,
+            "legacy": 434,
+            "scrawld": 389,
+            "slither_audited_smart_contracts": 3576,
+            "solidifi_benchmark": 179
+          }
+        },
+        "test": {
+          "rows": 2363,
+          "binary_counts": {
+            "clean": 1153,
+            "vulnerable": 1210
+          },
+          "source_counts": {
+            "dappscan": 46,
+            "legacy": 229,
+            "scrawld": 197,
+            "slither_audited_smart_contracts": 1787,
+            "solidifi_benchmark": 104
+          }
+        }
+      }
+    },
+    {
+      "dataset": "vul_type_721_stratified_v1",
+      "splits": {
+        "train": {
+          "rows": 18573,
+          "label_presence_counts": {
+            "access_control": 4062,
+            "arithmetic": 6711,
+            "bad_randomness": 1795,
+            "denial_service": 996,
+            "front_running": 779,
+            "reentrancy": 5010,
+            "time_manipulation": 1449,
+            "unchecked_low_calls": 4190
+          },
+          "source_counts": {
+            "dappscan": 318,
+            "legacy": 1065,
+            "scrawld": 1334,
+            "slither_audited_smart_contracts": 10929,
+            "solidifi_benchmark": 4927
+          }
+        },
+        "val": {
+          "rows": 3829,
+          "label_presence_counts": {
+            "access_control": 819,
+            "arithmetic": 1631,
+            "bad_randomness": 471,
+            "denial_service": 269,
+            "front_running": 218,
+            "reentrancy": 1234,
+            "time_manipulation": 311,
+            "unchecked_low_calls": 571
+          },
+          "source_counts": {
+            "dappscan": 86,
+            "legacy": 326,
+            "scrawld": 377,
+            "slither_audited_smart_contracts": 2863,
+            "solidifi_benchmark": 177
+          }
+        },
+        "test": {
+          "rows": 1992,
+          "label_presence_counts": {
+            "access_control": 406,
+            "arithmetic": 844,
+            "bad_randomness": 241,
+            "denial_service": 153,
+            "front_running": 119,
+            "reentrancy": 615,
+            "time_manipulation": 239,
+            "unchecked_low_calls": 291
+          },
+          "source_counts": {
+            "dappscan": 51,
+            "legacy": 218,
+            "scrawld": 198,
+            "slither_audited_smart_contracts": 1425,
+            "solidifi_benchmark": 100
+          }
+        }
+      }
+    },
+    {
+      "dataset": "vul_line_721_stratified_v1",
+      "splits": {
+        "train": {
+          "rows": 10155,
+          "label_presence_counts": {
+            "access_control": 1262,
+            "arithmetic": 2548,
+            "bad_randomness": 2014,
+            "denial_service": 1023,
+            "front_running": 838,
+            "reentrancy": 269,
+            "time_manipulation": 1462,
+            "unchecked_low_calls": 3312
+          },
+          "source_counts": {
+            "dappscan": 325,
+            "legacy": 1062,
+            "scrawld": 1367,
+            "slither_audited_smart_contracts": 1987,
+            "solidifi_benchmark": 5414
+          }
+        },
+        "val": {
+          "rows": 1529,
+          "label_presence_counts": {
+            "access_control": 59,
+            "arithmetic": 542,
+            "bad_randomness": 559,
+            "denial_service": 280,
+            "front_running": 233,
+            "reentrancy": 77,
+            "time_manipulation": 287,
+            "unchecked_low_calls": 220
+          },
+          "source_counts": {
+            "dappscan": 87,
+            "legacy": 300,
+            "scrawld": 390,
+            "slither_audited_smart_contracts": 552,
+            "solidifi_benchmark": 200
+          }
+        },
+        "test": {
+          "rows": 807,
+          "label_presence_counts": {
+            "access_control": 34,
+            "arithmetic": 289,
+            "bad_randomness": 281,
+            "denial_service": 143,
+            "front_running": 126,
+            "reentrancy": 36,
+            "time_manipulation": 152,
+            "unchecked_low_calls": 128
+          },
+          "source_counts": {
+            "dappscan": 52,
+            "legacy": 157,
+            "scrawld": 195,
+            "slither_audited_smart_contracts": 276,
+            "solidifi_benchmark": 127
+          }
+        }
+      }
+    }
+  ]
+}

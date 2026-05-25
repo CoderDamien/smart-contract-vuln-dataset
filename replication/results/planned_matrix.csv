@@ -1,0 +1,33 @@
+﻿系列,模型,has_vul/direct,has_vul/prompt,has_vul/full,has_vul/qlora,vul_type/direct,vul_type/prompt,vul_type/full,vul_type/qlora,vul_line/direct,vul_line/prompt,vul_line/full,vul_line/qlora
+传统基准,microsoft/codebert-base,非计划,非计划,已完成,非计划,非计划,非计划,已完成,非计划,非计划,非计划,已完成,非计划
+传统基准,microsoft/graphcodebert-base,非计划,非计划,已完成,非计划,非计划,非计划,已完成,非计划,非计划,非计划,已完成,非计划
+传统基准,microsoft/unixcoder-base,非计划,非计划,已完成,非计划,非计划,非计划,已完成,非计划,非计划,非计划,已完成,非计划
+传统基准,Salesforce/codet5-base,非计划,非计划,已完成,非计划,非计划,非计划,已完成,非计划,非计划,非计划,运行中,非计划
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-0.5B-Instruct,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-1.5B-Instruct,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-3B-Instruct,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-7B-Instruct,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-14B-Instruct,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+Qwen2.5-Coder,Qwen/Qwen2.5-Coder-32B-Instruct,已完成,已完成,非计划,已完成,已完成,已完成,非计划,运行中,已完成,已完成,非计划,运行中
+DeepSeek-Coder,deepseek-ai/deepseek-coder-1.3b-base,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成
+DeepSeek-Coder,deepseek-ai/deepseek-coder-6.7b-base,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+DeepSeek-Coder,deepseek-ai/deepseek-coder-33b-base,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,运行中,运行中,非计划,运行中
+StarCoder2,bigcode/starcoder2-3b,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成
+StarCoder2,bigcode/starcoder2-7b,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+StarCoder2,bigcode/starcoder2-15b,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+CodeGemma,google/codegemma-2b,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成
+CodeGemma,google/codegemma-7b,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+Granite Code,ibm-granite/granite-3b-code-base,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成,已完成
+Granite Code,ibm-granite/granite-8b-code-base,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+Granite Code,ibm-granite/granite-20b-code-base,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+CodeLlama,codellama/CodeLlama-7b-hf,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,运行中
+CodeLlama,codellama/CodeLlama-13b-hf,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+CodeLlama,codellama/CodeLlama-34b-hf,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,运行中
+WizardCoder,vanillaOVO/WizardCoder-Python-7B-V1.0,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成,已完成,已完成,非计划,已完成
+API,gpt-5.1,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划
+API,gpt-4.1,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划
+API,gpt-4.1-mini,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划
+API,claude-opus-4-1-20250805,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划
+API,claude-sonnet-4-20250514,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划
+API,gemini-2.5-pro,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划
+API,gemini-2.5-flash,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划,缺失,缺失,非计划,非计划

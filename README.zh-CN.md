@@ -253,3 +253,16 @@ print("漏洞存在性标签:", samples[0]["has_vulnerability"])
 ## 局限性
 
 本数据集整合了人工整理标签、注入型漏洞标签、审计来源标签、静态分析工具弱标签和候选样本复核标签。不同来源的标签置信度、粒度和噪声水平并不完全一致。使用该数据集进行模型评测或论文对比时，应明确报告数据版本、任务定义、数据划分和评价指标。
+## 论文复现包
+
+本仓库已经补充 [replication/](replication/) 目录，用于说明本文实验结果和仓库文件之间的对应关系。该目录包含切分文件索引、标签映射、实验配置、评估脚本、结果表、预测摘要、图表源数据和论文图文件。
+
+具体对应关系见 [replication/README.zh-CN.md](replication/README.zh-CN.md)。其中：
+
+- 数据切分索引位于 [replication/data_splits/balanced_stage1_resplit_721/split_file_index.csv](replication/data_splits/balanced_stage1_resplit_721/split_file_index.csv)，并通过 SHA-256 校验值指向 [data/processed/balanced_stage1_resplit_721.tar.gz](data/processed/balanced_stage1_resplit_721.tar.gz) 内部的具体切分文件。
+- 标签映射位于 [replication/label_mapping/](replication/label_mapping/)。
+- 实验配置位于 [replication/experiment_configs/](replication/experiment_configs/)。
+- 评估脚本位于 [replication/evaluation/](replication/evaluation/)。
+- 结果表位于 [replication/results/](replication/results/)。
+- 预测摘要位于 [replication/prediction_summaries/](replication/prediction_summaries/)。
+- 图表源文件和 SVG 图位于 [replication/figure_source/](replication/figure_source/) 与 [replication/figures/](replication/figures/)。
