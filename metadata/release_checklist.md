@@ -5,20 +5,20 @@ Use this checklist before publishing the dataset repository.
 ## Required Before Public Release
 
 - [x] Choose final repository name: `smart-contract-vuln-dataset`.
-- [ ] Choose final GitHub owner and URL.
+- [x] Choose final GitHub owner and URL: `https://github.com/CoderDamien/smart-contract-vuln-dataset`.
 - [x] Confirm raw upstream publication policy: raw data will not be published.
 - [x] Complete first-pass license review for each upstream source.
-- [ ] Add source URLs, citations, licenses, and access dates.
+- [x] Add source URLs, citations, licenses, and access dates.
 - [x] Decide recommended license for repository code and documentation: MIT.
 - [x] Decide recommended license for self-created metadata and annotations: CC BY 4.0, subject to upstream compatibility.
-- [ ] Add `LICENSE`.
-- [ ] Update `CITATION.cff` with final title, author metadata, repository URL, and paper DOI if available.
-- [ ] Generate final `metadata/dataset_statistics.json` from the released files.
-- [ ] Verify that no private server paths, tokens, local usernames, or unpublished paper notes are included.
+- [x] Add `LICENSE`.
+- [x] Update `CITATION.cff` with final title, author metadata, repository URL, and release version. Paper DOI is not available yet.
+- [x] Generate final `metadata/dataset_statistics.json` from the released files.
+- [x] Verify that no private server paths, tokens, local usernames, or unpublished paper notes are included in release-facing metadata and replication indexes.
 - [ ] Verify that processed train/validation/test splits do not leak duplicates across splits.
 - [ ] Verify that all line labels are in range.
-- [ ] Verify that README statistics match released files.
-- [ ] Tag release version, for example `v1.0.0`.
+- [x] Verify that README statistics match released files.
+- [ ] Tag release version `v1.0.0` on GitHub after committing the release-preparation changes.
 
 ## Recommended Before Public Release
 
@@ -27,4 +27,4 @@ Use this checklist before publishing the dataset repository.
 - [ ] Add a script that validates schema consistency.
 - [ ] Add a script that prints dataset statistics.
 - [ ] Add a model-agnostic baseline evaluation example.
-- [ ] Archive a release on Zenodo to obtain a DOI.
+- [ ] Archive release `v1.0.0` on Zenodo to obtain a DOI, then update `CITATION.cff`, `README.md`, and `metadata/release_metadata.json`.

@@ -1,6 +1,6 @@
-# License Notice Draft
+# License Notice
 
-Recommended release strategy:
+Release strategy:
 
 - Repository code and documentation: MIT.
 - Self-created dataset metadata, statistics, schemas, and annotation mappings: CC BY 4.0.

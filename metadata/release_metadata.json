@@ -1,0 +1,33 @@
+{
+  "version": "v1.0.0",
+  "repository": "https://github.com/CoderDamien/smart-contract-vuln-dataset",
+  "source_commit_audited_before_release": "6639cdd3f12a6bab308849434e3eab7e06897eda",
+  "doi": null,
+  "doi_status": "pending Zenodo archival after GitHub release",
+  "release_date": "2026-05-25",
+  "data_archives": {
+    "processed/balanced_stage1_resplit_721.tar.gz": "recommended benchmark split",
+    "merged/has_vul_merged_stage0.tar.gz": "merged binary vulnerability detection pool",
+    "merged/vul_type_merged_stage0.tar.gz": "merged vulnerability type classification pool",
+    "merged/vul_line_merged_stage0.tar.gz": "merged vulnerable-line localization pool"
+  },
+  "availability_note": "Raw upstream data is not redistributed. Processed data, metadata, evaluation scripts, aggregate metrics, and artifact summaries are released with checksums.",
+  "archive_checksums": {
+    "data/processed/balanced_stage1_resplit_721.tar.gz": {
+      "size_bytes": 223783314,
+      "sha256": "83242414044a68a44222c06f3969efabae37a2deedb79ff15f0ac40636b4e528"
+    },
+    "data/merged/has_vul_merged_stage0.tar.gz": {
+      "size_bytes": 634175940,
+      "sha256": "2f4b08d9a3c56a5e84c59cffd60e8aea144b49e8b01e2e04e9f9542da4c3e3db"
+    },
+    "data/merged/vul_type_merged_stage0.tar.gz": {
+      "size_bytes": 595942211,
+      "sha256": "e65b1e4c2b89d54b52f9f92c31284d2f0c845b2e6c3cdc5de6f4aa373ff71dec"
+    },
+    "data/merged/vul_line_merged_stage0.tar.gz": {
+      "size_bytes": 2632440,
+      "sha256": "f283259411d138b9a6b08d4861d71b04b81aaaa042af62659b066d63cbac2a90"
+    }
+  }
+}

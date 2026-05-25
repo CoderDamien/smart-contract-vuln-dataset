@@ -1,12 +1,19 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd /root/blockchain-vuln/project
-source /etc/profile.d/blockchain-vuln-data.sh
+PROJECT_ROOT="${PROJECT_ROOT:-$(pwd)}"
+PYTHON_BIN="${PYTHON_BIN:-python}"
+cd "${PROJECT_ROOT}"
 
-OUTPUT_ROOT=/root/blockchain-vuln/project/experiments/runs
-DATA_ROOT=/root/blockchain-vuln/project/data/prepared/balanced_stage1_resplit_721
-DRIVER_LOG_DIR=/root/blockchain-vuln/project/experiments/driver_logs
+if [[ -f "${PROJECT_ROOT}/.env" ]]; then
+  # Optional local environment file for reproducing the queue on another machine.
+  # The released script does not depend on a private server path.
+  source "${PROJECT_ROOT}/.env"
+fi
+
+OUTPUT_ROOT="${OUTPUT_ROOT:-${PROJECT_ROOT}/artifacts/runs}"
+DATA_ROOT="${DATA_ROOT:-${PROJECT_ROOT}/data/processed/balanced_stage1_resplit_721}"
+DRIVER_LOG_DIR="${DRIVER_LOG_DIR:-${PROJECT_ROOT}/artifacts/driver_logs}"
 mkdir -p "${DRIVER_LOG_DIR}"
 
 wait_for_current_run() {
@@ -19,7 +26,7 @@ wait_for_current_run() {
   done
   echo "DONE existing matrix_balanced721_qwen05_e1 $(date)"
   if [[ -d "${OUTPUT_ROOT}/matrix_balanced721_qwen05_e1" ]]; then
-    /root/blockchain-vuln/.venv/bin/python scripts/runtime/enrich_matrix_runtime.py \
+    "${PYTHON_BIN}" scripts/runtime/enrich_matrix_runtime.py \
       --summary-dir "${OUTPUT_ROOT}/matrix_balanced721_qwen05_e1" \
       --output-root "${OUTPUT_ROOT}" || true
   fi
@@ -31,7 +38,7 @@ run_matrix() {
   local methods="$3"
 
   echo "START ${run_prefix} model=${model} methods=${methods} $(date)"
-  /root/blockchain-vuln/.venv/bin/python -m src.matrix \
+  "${PYTHON_BIN}" -m src.matrix \
     --tasks has_vul vul_type vul_line \
     --methods ${methods} \
     --model "${model}" \
@@ -57,7 +64,7 @@ run_matrix() {
     --bf16 \
     --resume
 
-  /root/blockchain-vuln/.venv/bin/python scripts/runtime/enrich_matrix_runtime.py \
+  "${PYTHON_BIN}" scripts/runtime/enrich_matrix_runtime.py \
     --summary-dir "${OUTPUT_ROOT}/${run_prefix}" \
     --output-root "${OUTPUT_ROOT}" || true
   echo "END ${run_prefix} $(date)"
