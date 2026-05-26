@@ -73,18 +73,18 @@
     },
     {
       "path": "replication/experiment_configs/run_configs_bundle.jsonl",
-      "size_bytes": 360798,
-      "sha256": "378d8e40a4d4fe0b8bc2af687310f0b98a9907045c10317560e77db3c737f49c"
+      "size_bytes": 298229,
+      "sha256": "4bd8a7c4affb3464b1b27a5dce73777dc27facb2e991a3cec2b17f50d8d34ae6"
     },
     {
       "path": "replication/experiment_configs/run_configs_index.csv",
-      "size_bytes": 87303,
-      "sha256": "8bf429738d81cfc5a7283316995fba51f88374e22d048a152d8f9d42045388e8"
+      "size_bytes": 78895,
+      "sha256": "242ebb1d6e25b693887cef1cc47b9901d442a6c83904d987afa20904493504c0"
     },
     {
       "path": "replication/experiment_configs/run_formal_balanced721_queue.sh",
-      "size_bytes": 3064,
-      "sha256": "eab06a151b0ab6e2341d935e5bc4257d58fdb86de8b8347214e1000b94ce210a"
+      "size_bytes": 3330,
+      "sha256": "fc745bc4da8a4a89239c2d4a65b4e57e7631c0707ab6b4619f69c1cd0942db47"
     },
     {
       "path": "replication/figure_source/generate_q1_paper_assets.py",
@@ -213,23 +213,23 @@
     },
     {
       "path": "replication/manifest.json",
-      "size_bytes": 12412,
-      "sha256": "a99b41b5acdeca2601fa4fafcad56f07c334edf500b05abd5ee3ce143dc4d862"
+      "size_bytes": 12882,
+      "sha256": "3ef0800ab09b4de45a20609d3e5608f845ca2127aa9516c80b86580e9905ac8a"
     },
     {
       "path": "replication/prediction_summaries/prediction_artifact_index.csv",
-      "size_bytes": 135131,
-      "sha256": "c5e0ecb475fc221bf0ef75b04d3e353563e4074eb9bd8f81e75baa9068a32b40"
+      "size_bytes": 109765,
+      "sha256": "34f6496f91b316bea2062d4ed2027b55116dfdbc96d1bc541aeb4762bd44b1e1"
     },
     {
       "path": "replication/prediction_summaries/prediction_artifact_index.json",
-      "size_bytes": 216449,
-      "sha256": "a70868535617e4c5c346bdd0d4bc305ecfc4df503965ee4150bd4ff7dc48bcd5"
+      "size_bytes": 188435,
+      "sha256": "867d72b949bfd6f2c4801fccb4569864d4f00ba8ec6452e89ece7fb1a87de5a3"
     },
     {
       "path": "replication/README.md",
-      "size_bytes": 4721,
-      "sha256": "ad8499ab0ef2d14c0a1e57859c0fe49ea5cc3e572fe37fe91ae38698cdcc6284"
+      "size_bytes": 5091,
+      "sha256": "5384f20e9acc30500e02b1ef7c0e8848cee4c5fa9e8f4b76ab97011883bc3517"
     },
     {
       "path": "replication/README.zh-CN.md",
@@ -238,13 +238,13 @@
     },
     {
       "path": "replication/results/all_result_metrics.csv",
-      "size_bytes": 284791,
-      "sha256": "221577c2a009276258ee7fd7fdbd0f3e481ac60e93621dc96c3dd249d5c29e3e"
+      "size_bytes": 213240,
+      "sha256": "b50c059077643561c216fa02e63c8f6e078c62323bbf323f652f37df3faf852f"
     },
     {
       "path": "replication/results/data_completion_before_after.csv",
-      "size_bytes": 13745,
-      "sha256": "160bd474fa12af8f1a03523bff75744861ad21a489bc884ecb7796168b744e76"
+      "size_bytes": 9602,
+      "sha256": "4230fc87e012ee98cec9ad5ae7d519045222e1a9c54bc7f3b6d0b62cf37ba802"
     },
     {
       "path": "replication/results/data_completion_pairs.csv",
@@ -253,18 +253,18 @@
     },
     {
       "path": "replication/results/has_vul_metrics.csv",
-      "size_bytes": 54258,
-      "sha256": "4af6f6fcf2fcd5ed192d816f7feaa61346a3b184ce9b8d3cc54b15c6f8483f2d"
+      "size_bytes": 42827,
+      "sha256": "30745e49b4ab62b58e68afec89adac035d3fd7bbfbd1ddcb5083252bd8cab699"
     },
     {
       "path": "replication/results/local_completed_results_tables.md",
-      "size_bytes": 10636,
-      "sha256": "82bbe2fbae5093485f0e2b72c96c64996e349e7dfb34c0cc28bf91d6a6ee5f23"
+      "size_bytes": 10200,
+      "sha256": "f50e022da467a812ffbba2220611ddb84c119dee3bdf1fa118e4c135b600e38f"
     },
     {
       "path": "replication/results/model_summary.csv",
-      "size_bytes": 3001,
-      "sha256": "c68610b24c5fbfae320c50a83c3e04a99348338cf9388cc4b8ba0f0cd72c83c7"
+      "size_bytes": 2285,
+      "sha256": "6c111d89d29598d5614b4c402b4794121c835b4dc5fa9cba8b56d9b4927482e5"
     },
     {
       "path": "replication/results/paper_experiment_closure_summary.csv",
@@ -273,13 +273,13 @@
     },
     {
       "path": "replication/results/paper_experiment_matrix_closure.csv",
-      "size_bytes": 182519,
-      "sha256": "a6e4017ff421841e6e46e54624c7a65f89cb7e06d31f3d21d90516b83d4bb0a1"
+      "size_bytes": 123544,
+      "sha256": "31d68b9f7ae23da1779c9c59299a929479b0647e7dde4151ee3244fa9de9c58f"
     },
     {
       "path": "replication/results/paper_experiment_metrics_all.csv",
-      "size_bytes": 168966,
-      "sha256": "341098191b16a6cf030fe328cf13de75b6c6950202e72947be8cdf4d6e5eb31e"
+      "size_bytes": 103478,
+      "sha256": "c30d6802b15a5f1ebf2cf866fec04e25428e6632c71a8021f57a145048c7514f"
     },
     {
       "path": "replication/results/paper_experiment_results.xlsx",
@@ -288,28 +288,28 @@
     },
     {
       "path": "replication/results/planned_matrix.csv",
-      "size_bytes": 5125,
-      "sha256": "27f942247f68c3f5e623b977960ddf1b7b306c240de61a10f291d4ff97ab93c3"
+      "size_bytes": 5123,
+      "sha256": "255da9e6818e321b5b0a059bf4f0ec64c78f41c2cbf26e3c89593fbc8c19659a"
     },
     {
       "path": "replication/results/prompt_ablation.csv",
-      "size_bytes": 21890,
-      "sha256": "f04fb5459652f6cd81a415565b5de238ecdc42dff46ce1c18178e9e471fe8a3c"
+      "size_bytes": 12058,
+      "sha256": "0322e65b00285fde80c472eb555037861ad64325b0eb2678d320f4c04343f58f"
     },
     {
       "path": "replication/results/run_closure_audit.csv",
-      "size_bytes": 116530,
-      "sha256": "0c3f4f8d62f53c061283484e9eaa6028c77dc6927bde58d3579e990b76caeda7"
+      "size_bytes": 74510,
+      "sha256": "e9d02f8d6267562b5a9dd1a2a6d87ee4a0dc682ba09e147a09239de3f1d0d7c6"
     },
     {
       "path": "replication/results/vul_line_metrics.csv",
-      "size_bytes": 88760,
-      "sha256": "9029d9da62861242d8be5e6868d448c8a52e6937122b2ff91c1d7de6cb26e070"
+      "size_bytes": 60416,
+      "sha256": "f7f67c4af579b1d4c5c9e983bd9a090b48a7f91cbcd4a5d515120851bcbada08"
     },
     {
       "path": "replication/results/vul_type_metrics.csv",
-      "size_bytes": 106005,
-      "sha256": "c1cc244b88f5d29769a4ed74b62e31fcea31ff8641d736abeca86b03ef4cffd2"
+      "size_bytes": 69912,
+      "sha256": "3075c28880225094679522ff9979c5c192294e47475cc9a7b401a90700d5fad9"
     }
   ]
 }

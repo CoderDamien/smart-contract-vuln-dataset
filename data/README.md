@@ -15,33 +15,33 @@ This directory contains publicly downloadable dataset archives.
 
 | File | Size | Samples | Content |
 |---|---:|---:|---|
-| `merged/has_vul_merged_stage0.tar.gz` | 605 MB | 105,278 | Binary vulnerability detection merged pool. |
-| `merged/vul_type_merged_stage0.tar.gz` | 568 MB | 95,573 | Vulnerability type classification merged pool. |
-| `merged/vul_line_merged_stage0.tar.gz` | 2.5 MB | 24,178 | Vulnerable line localization merged pool. |
+| `merged/has_vul_merged_stage0.tar.gz` | 604.8 MiB | 105,278 | Binary vulnerability detection merged pool. |
+| `merged/vul_type_merged_stage0.tar.gz` | 568.3 MiB | 95,573 | Vulnerability type classification merged pool. |
+| `merged/vul_line_merged_stage0.tar.gz` | 2.5 MiB | 24,178 | Vulnerable line localization merged pool. |
 
 ## Processed Benchmark Archive
 
 | File | Size | Content |
 |---|---:|---|
-| `processed/balanced_stage1_resplit_721.tar.gz` | 213 MB | Recommended task-specific train/validation/test splits for `has_vul`, `vul_type`, and `vul_line`. |
+| `processed/balanced_stage1_resplit_721.tar.gz` | 213.4 MiB | Recommended task-specific train/validation/test splits for `has_vul`, `vul_type`, and `vul_line`. |
 
 The archive contains:
 
 ```text
 balanced_stage1_resplit_721/
-├── build_report.json
-├── has_vul_721_stratified_v1/
-│   ├── train.json
-│   ├── val.json
-│   └── test.json
-├── vul_type_721_stratified_v1/
-│   ├── train.json
-│   ├── val.json
-│   └── test.json
-└── vul_line_721_stratified_v1/
-    ├── train.json
-    ├── val.json
-    └── test.json
+|-- build_report.json
+|-- has_vul_721_stratified_v1/
+|   |-- train.json
+|   |-- val.json
+|   `-- test.json
+|-- vul_type_721_stratified_v1/
+|   |-- train.json
+|   |-- val.json
+|   `-- test.json
+`-- vul_line_721_stratified_v1/
+    |-- train.json
+    |-- val.json
+    `-- test.json
 ```
 
 ## Extract

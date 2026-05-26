@@ -42,3 +42,4 @@ This directory turns the dataset release into a paper-oriented replication packa
 5. Use `replication/experiment_configs/run_configs_index.csv`, `replication/experiment_configs/run_configs_bundle.jsonl`, and `replication/prediction_summaries/prediction_artifact_index.csv` to trace each reported row back to its run configuration and prediction artifact.
 
 The package is intended to make the paper results auditable. Full model checkpoints and full prediction JSONL files are not duplicated in this repository; their checksums and local source paths are indexed in `prediction_summaries/`.
+The released indexes use stable artifact paths such as `artifacts/predictions/...`, `artifacts/metrics/...`, and `artifacts/configs/...` instead of private server paths. These paths identify the artifact class and run-level provenance; the corresponding row counts, file sizes, and SHA-256 checksums provide the audit trail.
