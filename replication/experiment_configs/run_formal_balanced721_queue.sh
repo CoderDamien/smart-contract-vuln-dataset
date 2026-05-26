@@ -68,7 +68,7 @@ wait_for_current_run
 run_matrix "Qwen/Qwen2.5-Coder-1.5B-Instruct" "formal_balanced721_qwen25coder15b_e1" "direct prompt full qlora"
 run_matrix "deepseek-ai/deepseek-coder-1.3b-base" "formal_balanced721_deepseekcoder13b_e1" "direct prompt full qlora"
 
-# 7B-class models are evaluated without full fine-tuning on this L20 server.
+# 7B-class models are evaluated without full fine-tuning on this P6000 pro server.
 # Direct/prompt give zero/few-shot baselines; QLoRA gives the trainable low-memory comparison.
 run_matrix "Qwen/Qwen2.5-Coder-7B-Instruct" "formal_balanced721_qwen25coder7b_e1" "direct prompt qlora"
 run_matrix "deepseek-ai/deepseek-coder-6.7b-base" "formal_balanced721_deepseekcoder67b_e1" "direct prompt qlora"

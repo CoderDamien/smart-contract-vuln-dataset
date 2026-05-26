@@ -48,8 +48,8 @@
     },
     {
       "path": "replication/experiment_configs/formal_experiment_execution_plan.md",
-      "size_bytes": 11993,
-      "sha256": "5dbde7b49b4577a885636d5d53587ebaec3fb7e47c5ad6f922e70ab15ce4cae2"
+      "size_bytes": 11999,
+      "sha256": "282fe2aac5b027aa0fd2941b9c40ccff2f73831b9ffdd6bf6525d152885ab9c7"
     },
     {
       "path": "replication/experiment_configs/project_configs/dataset_import_manifest.json",
@@ -83,8 +83,8 @@
     },
     {
       "path": "replication/experiment_configs/run_formal_balanced721_queue.sh",
-      "size_bytes": 3058,
-      "sha256": "3d8ff4efb6bdb12871c07a96aeb09bf7ead6039e302ba99793cbb26be45d3d51"
+      "size_bytes": 3064,
+      "sha256": "eab06a151b0ab6e2341d935e5bc4257d58fdb86de8b8347214e1000b94ce210a"
     },
     {
       "path": "replication/figure_source/generate_q1_paper_assets.py",
@@ -213,8 +213,8 @@
     },
     {
       "path": "replication/manifest.json",
-      "size_bytes": 11903,
-      "sha256": "4a3a9bd57e8942bd6deeab68a3e710b0cb44465e7615f5ebbb7aa2deb76844e0"
+      "size_bytes": 12412,
+      "sha256": "a99b41b5acdeca2601fa4fafcad56f07c334edf500b05abd5ee3ce143dc4d862"
     },
     {
       "path": "replication/prediction_summaries/prediction_artifact_index.csv",
