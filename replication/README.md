@@ -17,6 +17,8 @@ This directory turns the dataset release into a paper-oriented replication packa
 | `figure_source/` | Scripts and CSV tables used to regenerate or audit the paper figures. |
 | `manifest.json` | File-level checksum manifest for this replication package. |
 
+Numbered supplementary tables are published in `supplementary/`. The supplement includes `Table_S1` to `Table_S14` as individual CSV files and as the combined workbook `supplementary/supplementary_tables.xlsx`.
+
 ## Mapping to Manuscript Results
 
 | Manuscript Component | Replication Files |

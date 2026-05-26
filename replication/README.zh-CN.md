@@ -17,6 +17,8 @@
 | `figure_source/` | 图表生成/审计脚本，以及可作为图表源数据的结果 CSV。 |
 | `manifest.json` | 本 replication package 的文件级校验清单。 |
 
+编号补充表已经发布在 `supplementary/` 目录下，包含 `Table_S1` 至 `Table_S14` 的独立 CSV 文件，以及合并工作簿 `supplementary/supplementary_tables.xlsx`。
+
 ## 与论文结果的对应关系
 
 | 论文内容 | 对应文件 |

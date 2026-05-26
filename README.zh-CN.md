@@ -257,6 +257,8 @@ print("漏洞存在性标签:", samples[0]["has_vulnerability"])
 
 本仓库已经补充 [replication/](replication/) 目录，用于说明本文实验结果和仓库文件之间的对应关系。该目录包含切分文件索引、标签映射、实验配置、评估脚本、结果表、预测摘要、图表源数据和论文图文件。
 
+编号补充材料表已经补充到 [supplementary/](supplementary/) 目录。合并工作簿 [supplementary/supplementary_tables.xlsx](supplementary/supplementary_tables.xlsx) 包含 `Table_S1` 至 `Table_S14` 工作表；独立 CSV 文件位于 [supplementary/tables/](supplementary/tables/)。这些文件用于支撑正文中对 Supplementary Tables S1、S5、S9 和 S13 的引用。
+
 具体对应关系见 [replication/README.zh-CN.md](replication/README.zh-CN.md)。其中：
 
 - 数据切分索引位于 [replication/data_splits/balanced_stage1_resplit_721/split_file_index.csv](replication/data_splits/balanced_stage1_resplit_721/split_file_index.csv)，并通过 SHA-256 校验值指向 [data/processed/balanced_stage1_resplit_721.tar.gz](data/processed/balanced_stage1_resplit_721.tar.gz) 内部的具体切分文件。

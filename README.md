@@ -14,6 +14,7 @@ This repository publishes processed benchmark data, normalized annotations, cons
 Chinese version: [README.zh-CN.md](README.zh-CN.md).
 Dataset card: [DATASET_CARD.md](DATASET_CARD.md).
 Paper replication package: [replication/](replication/).
+Supplementary tables: [supplementary/](supplementary/).
 
 Keywords: smart contract vulnerability dataset, Solidity vulnerability detection, Ethereum smart contract security, reentrancy detection dataset, smart contract bug localization, vulnerable line localization, vulnerability type classification, LLM code security benchmark, blockchain vulnerability detection, Web3 security dataset.
 
@@ -24,6 +25,8 @@ Release notes: [RELEASE.md](RELEASE.md).
 ## Paper Replication Package
 
 This repository also contains a paper-oriented replication package under [replication/](replication/). It includes split indexes, label mappings, experiment configurations, evaluation scripts, result tables, prediction artifact summaries, rendered figures, and figure source files.
+
+Numbered supplementary tables are provided under [supplementary/](supplementary/). The combined workbook [supplementary/supplementary_tables.xlsx](supplementary/supplementary_tables.xlsx) contains worksheets `Table_S1` to `Table_S14`, and the individual CSV files are available under [supplementary/tables/](supplementary/tables/). These tables make the manuscript references to Supplementary Tables S1, S5, S9, and S13 directly auditable.
 
 The mapping from repository files to manuscript results is documented in [replication/README.md](replication/README.md). In particular:
 

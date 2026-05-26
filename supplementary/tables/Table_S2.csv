@@ -1,0 +1,33 @@
+﻿不支持/需适配,失败,已完成,应跑总数,未完成任务名称,模型,系列,缺失,运行中,阻塞
+0,0,3,3,,microsoft/codebert-base,传统基准,0,0,0
+0,0,3,3,,microsoft/graphcodebert-base,传统基准,0,0,0
+0,0,3,3,,microsoft/unixcoder-base,传统基准,0,0,0
+0,0,2,3,artifacts/unassigned_run/full:运行中,Salesforce/codet5-base,传统基准,0,1,0
+0,0,12,12,,Qwen/Qwen2.5-Coder-0.5B-Instruct,Qwen2.5-Coder,0,0,0
+0,0,12,12,,Qwen/Qwen2.5-Coder-1.5B-Instruct,Qwen2.5-Coder,0,0,0
+0,0,12,12,,Qwen/Qwen2.5-Coder-3B-Instruct,Qwen2.5-Coder,0,0,0
+0,0,9,9,,Qwen/Qwen2.5-Coder-7B-Instruct,Qwen2.5-Coder,0,0,0
+0,0,9,9,,Qwen/Qwen2.5-Coder-14B-Instruct,Qwen2.5-Coder,0,0,0
+0,0,7,9,artifacts/unassigned_run/qlora:运行中,Qwen/Qwen2.5-Coder-32B-Instruct,Qwen2.5-Coder,0,2,0
+0,0,12,12,,deepseek-ai/deepseek-coder-1.3b-base,DeepSeek-Coder,0,0,0
+0,0,9,9,,deepseek-ai/deepseek-coder-6.7b-base,DeepSeek-Coder,0,0,0
+0,0,6,9,artifacts/unassigned_run/qlora:运行中,deepseek-ai/deepseek-coder-33b-base,DeepSeek-Coder,0,3,0
+0,0,12,12,,bigcode/starcoder2-3b,StarCoder2,0,0,0
+0,0,9,9,,bigcode/starcoder2-7b,StarCoder2,0,0,0
+0,0,9,9,,bigcode/starcoder2-15b,StarCoder2,0,0,0
+0,0,12,12,,google/codegemma-2b,CodeGemma,0,0,0
+0,0,9,9,,google/codegemma-7b,CodeGemma,0,0,0
+0,0,12,12,,ibm-granite/granite-3b-code-base,Granite Code,0,0,0
+0,0,9,9,,ibm-granite/granite-8b-code-base,Granite Code,0,0,0
+0,0,9,9,,ibm-granite/granite-20b-code-base,Granite Code,0,0,0
+0,0,8,9,artifacts/unassigned_run/qlora:运行中,codellama/CodeLlama-7b-hf,CodeLlama,0,1,0
+0,0,9,9,,codellama/CodeLlama-13b-hf,CodeLlama,0,0,0
+0,0,8,9,artifacts/unassigned_run/qlora:运行中,codellama/CodeLlama-34b-hf,CodeLlama,0,1,0
+0,0,9,9,,WizardLM/WizardCoder-Python-7B-V1.0,WizardCoder,0,0,0
+0,0,0,6,artifacts/unassigned_run/prompt:缺失,gpt-5.1,API,6,0,0
+0,0,0,6,artifacts/unassigned_run/prompt:缺失,gpt-4.1,API,6,0,0
+0,0,0,6,artifacts/unassigned_run/prompt:缺失,gpt-4.1-mini,API,6,0,0
+0,0,0,6,artifacts/unassigned_run/prompt:缺失,claude-opus-4-1-20250805,API,6,0,0
+0,0,0,6,artifacts/unassigned_run/prompt:缺失,claude-sonnet-4-20250514,API,6,0,0
+0,0,0,6,artifacts/unassigned_run/prompt:缺失,gemini-2.5-pro,API,6,0,0
+0,0,0,6,artifacts/unassigned_run/prompt:缺失,gemini-2.5-flash,API,6,0,0
