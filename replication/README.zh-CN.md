@@ -31,7 +31,7 @@
 | `vul_type` 漏洞类型分类结果 | `replication/results/vul_type_metrics.csv`; `replication/evaluation/tasks/vul_type.py`; `replication/label_mapping/` |
 | `vul_line` 漏洞行定位结果 | `replication/results/vul_line_metrics.csv`; `replication/evaluation/tasks/vul_line.py`; `replication/evaluation/metrics_vul_line.py` |
 | Prompt 消融分析 | `replication/results/prompt_ablation.csv`; `replication/evaluation/prompts/templates.py`; `replication/evaluation/prompts/parsers.py` |
-| 数据补齐、低频类别补充和数据建设工作量分析 | `replication/results/data_completion_before_after.csv`; `replication/results/data_completion_pairs.csv`; `docs/data_processing_and_augmentation.md`; `docs/construction_effort.md` |
+| 数据集扩展、低频类别补充和数据建设工作量分析 | `replication/results/data_completion_before_after.csv`; `replication/results/data_completion_pairs.csv`; `docs/data_processing_and_augmentation.md`; `docs/construction_effort.md` |
 | 图表源数据和论文图 | `replication/figure_source/`; `replication/results/*.csv`; `replication/figures/` |
 | 预测结果文件审计 | `replication/prediction_summaries/prediction_artifact_index.csv`; `replication/prediction_summaries/prediction_artifact_index.json` |
 

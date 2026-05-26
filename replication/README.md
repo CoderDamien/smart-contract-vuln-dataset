@@ -31,7 +31,7 @@ Numbered supplementary tables are published in `supplementary/`. The supplement 
 | `vul_type` results | `replication/results/vul_type_metrics.csv`; `replication/evaluation/tasks/vul_type.py`; `replication/label_mapping/` |
 | `vul_line` results | `replication/results/vul_line_metrics.csv`; `replication/evaluation/tasks/vul_line.py`; `replication/evaluation/metrics_vul_line.py` |
 | Prompt ablation analysis | `replication/results/prompt_ablation.csv`; `replication/evaluation/prompts/templates.py`; `replication/evaluation/prompts/parsers.py` |
-| Data-completion and low-frequency supplementation analysis | `replication/results/data_completion_before_after.csv`; `replication/results/data_completion_pairs.csv`; `docs/data_processing_and_augmentation.en.md`; `docs/construction_effort.en.md` |
+| Dataset expansion and low-frequency class supplementation analysis | `replication/results/data_completion_before_after.csv`; `replication/results/data_completion_pairs.csv`; `docs/data_processing_and_augmentation.en.md`; `docs/construction_effort.en.md` |
 | Figure source data and rendered figures | `replication/figure_source/`; `replication/results/*.csv`; `replication/figures/` |
 | Prediction artifact audit | `replication/prediction_summaries/prediction_artifact_index.csv`; `replication/prediction_summaries/prediction_artifact_index.json` |
 

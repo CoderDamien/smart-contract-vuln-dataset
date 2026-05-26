@@ -370,14 +370,6 @@
 0,0,161,1,prompt,Qwen2.5-Coder-32B-Instruct,0,161,0,,,,,prompt_ablation_parse_summary,,vul_type
 0,0,152,0.9440993788819876,prompt,Qwen2.5-Coder-32B-Instruct,9,161,0.05590062111801242,,,,,prompt_ablation_parse_summary,,vul_type
 0,0,152,0.9440993788819876,prompt,Qwen2.5-Coder-32B-Instruct,9,161,0.05590062111801242,,,,,prompt_ablation_parse_summary,,vul_type
-116,0.7073170731707317,164,1,direct,Qwen2.5-Coder-3B-Instruct,0,164,0,,,,,prompt_ablation_parse_summary,,vul_line
-0,0,164,1,prompt,Qwen2.5-Coder-3B-Instruct,0,164,0,,,,,prompt_ablation_parse_summary,,vul_line
-94,0.573170731707317,164,1,prompt,Qwen2.5-Coder-3B-Instruct,0,164,0,,,,,prompt_ablation_parse_summary,,vul_line
-94,0.573170731707317,164,1,prompt,Qwen2.5-Coder-3B-Instruct,0,164,0,,,,,prompt_ablation_parse_summary,,vul_line
-0,0,161,1,direct,Qwen2.5-Coder-3B-Instruct,0,161,0,,,,,prompt_ablation_parse_summary,,vul_type
-0,0,161,1,prompt,Qwen2.5-Coder-3B-Instruct,0,161,0,,,,,prompt_ablation_parse_summary,,vul_type
-0,0,159,0.9875776397515528,prompt,Qwen2.5-Coder-3B-Instruct,2,161,0.0124223602484472,,,,,prompt_ablation_parse_summary,,vul_type
-0,0,160,0.9937888198757764,prompt,Qwen2.5-Coder-3B-Instruct,1,161,0.006211180124223602,,,,,prompt_ablation_parse_summary,,vul_type
 4,0.02484472049689441,161,1,direct,Qwen2.5-Coder-7B-Instruct,0,161,0,,,,,prompt_ablation_parse_summary,,vul_line
 12,0.07453416149068323,161,1,prompt,Qwen2.5-Coder-7B-Instruct,0,161,0,,,,,prompt_ablation_parse_summary,,vul_line
 66,0.4099378881987578,157,0.9751552795031055,prompt,Qwen2.5-Coder-7B-Instruct,4,161,0.02484472049689441,,,,,prompt_ablation_parse_summary,,vul_line
