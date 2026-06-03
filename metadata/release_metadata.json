@@ -1,10 +1,26 @@
 {
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "repository": "https://github.com/CoderDamien/smart-contract-vuln-dataset",
+  "initial_data_release": "v1.0.0",
   "source_commit_audited_before_release": "6639cdd3f12a6bab308849434e3eab7e06897eda",
   "doi": null,
   "doi_status": "pending Zenodo archival after GitHub release",
-  "release_date": "2026-05-25",
+  "release_date": "2026-06-03",
+  "release_type": "manuscript-aligned metadata, replication, supplement, and figure-reference update",
+  "manuscript_alignment": {
+    "target": "IST manuscript version dated 2026-06-03",
+    "formal_evaluation_units": 226,
+    "model_count": 25,
+    "model_family_count": 8,
+    "use_modes": [
+      "direct",
+      "prompt",
+      "full fine-tuning",
+      "QLoRA"
+    ],
+    "prompt_ablation_comparisons": 16,
+    "current_figure_directory": "replication/figures/figures_q1_redesign"
+  },
   "data_archives": {
     "processed/balanced_stage1_resplit_721.tar.gz": "recommended benchmark split",
     "merged/has_vul_merged_stage0.tar.gz": "merged binary vulnerability detection pool",

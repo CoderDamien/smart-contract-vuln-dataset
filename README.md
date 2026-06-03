@@ -4,7 +4,8 @@ A large-scale Solidity smart contract vulnerability dataset for Ethereum securit
 
 Repository name: `smart-contract-vuln-dataset`.
 
-Release version: `v1.0.0`.
+Current manuscript-aligned version: `v1.0.1`.
+Initial data release: `v1.0.0`.
 Release metadata: [metadata/release_metadata.json](metadata/release_metadata.json).
 Archive checksums: [metadata/archive_checksums.csv](metadata/archive_checksums.csv).
 DOI status: pending Zenodo archival after the GitHub release is published.
@@ -28,6 +29,8 @@ This repository also contains a paper-oriented replication package under [replic
 
 Numbered supplementary tables are provided under [supplementary/](supplementary/). The combined workbook [supplementary/supplementary_tables.xlsx](supplementary/supplementary_tables.xlsx) contains worksheets `Table_S1` to `Table_S14`, and the individual CSV files are available under [supplementary/tables/](supplementary/tables/). These tables make the manuscript references to Supplementary Tables S1, S5, S9, and S13 directly auditable.
 
+The current replication package is aligned with the IST manuscript version dated 2026-06-03. The study evaluates 226 model-task-mode combinations, 25 models from 8 model families, and four use modes: direct inference, structured prompting, full fine-tuning, and QLoRA. The prompt ablation supplement follows the manuscript scope exactly: 2 Qwen2.5-Coder models, 2 tasks, and 4 prompt settings, for 16 comparisons in Supplementary Table S9.
+
 The mapping from repository files to manuscript results is documented in [replication/README.md](replication/README.md). In particular:
 
 - Dataset splits are indexed in [replication/data_splits/balanced_stage1_resplit_721/split_file_index.csv](replication/data_splits/balanced_stage1_resplit_721/split_file_index.csv), with checksums and internal paths pointing to [data/processed/balanced_stage1_resplit_721.tar.gz](data/processed/balanced_stage1_resplit_721.tar.gz).
@@ -37,6 +40,31 @@ The mapping from repository files to manuscript results is documented in [replic
 - Result tables are in [replication/results/](replication/results/).
 - Prediction artifact summaries are in [replication/prediction_summaries/](replication/prediction_summaries/).
 - Figure source files and rendered SVG figures are in [replication/figure_source/](replication/figure_source/) and [replication/figures/](replication/figures/).
+
+### Manuscript Figures
+
+The current manuscript uses the redesigned figure set under [replication/figures/figures_q1_redesign/](replication/figures/figures_q1_redesign/):
+
+| Manuscript Figure | File |
+|---|---|
+| Figure 1. Reproducible evaluation framework | `replication/figures/figures_q1_redesign/fig1_protocol.svg` |
+| Figure 2. Qwen2.5-Coder scale trends | `replication/figures/figures_q1_redesign/fig4_qwen_scaling.svg` |
+| Figure 3. Structured prompt ablation | `replication/figures/figures_q1_redesign/fig5_prompt_ablation.svg` |
+| Figure 4. Candidate-hit versus exact line localization boundary | `replication/figures/figures_q1_redesign/fig8_line_boundary.svg` |
+| Figure 5. Runtime-performance Pareto trade-off | `replication/figures/figures_q1_redesign/fig9_runtime_tradeoff.svg` |
+
+### Manuscript Result Anchors
+
+The aggregate result files under [replication/results/](replication/results/) support the following headline findings reported in the manuscript:
+
+| Task / Analysis | Manuscript anchor | Supporting files |
+|---|---|---|
+| Formal evaluation matrix | 226 model-task-mode units; 63 direct, 63 prompt, 63 QLoRA, and 37 full fine-tuning units | `paper_experiment_matrix_closure.csv`; `paper_experiment_metrics_all.csv`; `model_summary.csv` |
+| Vulnerability presence detection | Best F1: 0.8757 with Qwen2.5-Coder-1.5B full fine-tuning | `has_vul_metrics.csv`; `paper_experiment_metrics_all.csv` |
+| Vulnerability type identification | Best standard F1: 0.6265; best macro-F1: 0.4755; best multi-label F1: 0.4300 | `vul_type_metrics.csv`; `paper_experiment_metrics_all.csv` |
+| Vulnerable line localization | Best strict-F1: 0.2955; best contract-hit: 0.8451 | `vul_line_metrics.csv`; `paper_experiment_metrics_all.csv` |
+| Prompt ablation | 16 comparisons for Qwen2.5-Coder-7B and 32B over `vul_type` and `vul_line` | `prompt_ablation.csv`; `supplementary/tables/Table_S9.csv` |
+| Dataset expansion | 6 retained same-model, same-task, same-method before/after pairs | `data_completion_pairs.csv`; `supplementary/tables/Table_S10.csv` |
 
 ## Highlights
 
@@ -258,7 +286,7 @@ Download or clone the repository with Git LFS enabled, then extract the processe
 git lfs install
 git clone https://github.com/CoderDamien/smart-contract-vuln-dataset.git
 cd smart-contract-vuln-dataset
-git checkout v1.0.0
+git checkout v1.0.1
 git lfs pull
 tar -xzf data/processed/balanced_stage1_resplit_721.tar.gz -C data/processed/
 tar -xzf data/merged/has_vul_merged_stage0.tar.gz -C data/merged/
@@ -303,7 +331,7 @@ If you use this dataset, please cite the dataset repository and the related pape
   title  = {Smart Contract Vulnerability Dataset for Solidity and Ethereum Security},
   author = {Xu, Daming},
   year   = {2026},
-  version = {v1.0.0},
+  version = {v1.0.1},
   publisher = {GitHub},
   url    = {https://github.com/CoderDamien/smart-contract-vuln-dataset}
 }

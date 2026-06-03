@@ -1,6 +1,8 @@
 # Replication Package
 
-This directory turns the dataset release into a paper-oriented replication package. It does not duplicate the large processed split files; instead, it points to the exact files inside `data/processed/balanced_stage1_resplit_721.tar.gz` and records SHA-256 checksums for each split.
+This directory turns the dataset release into a paper-oriented replication package aligned with the IST manuscript version dated 2026-06-03. It does not duplicate the large processed split files; instead, it points to the exact files inside `data/processed/balanced_stage1_resplit_721.tar.gz` and records SHA-256 checksums for each split.
+
+The current manuscript reports 226 model-task-mode evaluation units over 25 models, 8 model families, and four use modes: direct inference, structured prompting, full fine-tuning, and QLoRA.
 
 ## Directory Map
 
@@ -13,7 +15,7 @@ This directory turns the dataset release into a paper-oriented replication packa
 | `evaluation/` | Task and metric code used to define the three paper tasks, including vulnerable-line localization metrics. |
 | `results/` | Paper result tables exported from the working Excel workbook as CSV files, plus the original workbook. |
 | `prediction_summaries/` | Prediction artifact index with row counts, file sizes, SHA-256 checksums, and local source paths for each prediction file. |
-| `figures/` | SVG figures used for the manuscript and figure redesign drafts. |
+| `figures/` | SVG figures used for the manuscript and figure redesign drafts. The current manuscript uses `figures/figures_q1_redesign/`. |
 | `figure_source/` | Scripts and CSV tables used to regenerate or audit the paper figures. |
 | `manifest.json` | File-level checksum manifest for this replication package. |
 
@@ -34,6 +36,28 @@ Numbered supplementary tables are published in `supplementary/`. The supplement 
 | Dataset expansion and low-frequency class supplementation analysis | `replication/results/data_completion_before_after.csv`; `replication/results/data_completion_pairs.csv`; `docs/data_processing_and_augmentation.en.md`; `docs/construction_effort.en.md` |
 | Figure source data and rendered figures | `replication/figure_source/`; `replication/results/*.csv`; `replication/figures/` |
 | Prediction artifact audit | `replication/prediction_summaries/prediction_artifact_index.csv`; `replication/prediction_summaries/prediction_artifact_index.json` |
+
+## Current Manuscript Figures
+
+| Manuscript Figure | Rendered SVG | Source / Audit Files |
+|---|---|---|
+| Figure 1. Reproducible evaluation framework | `replication/figures/figures_q1_redesign/fig1_protocol.svg` | `replication/figure_source/redraw_q1_figures.py` |
+| Figure 2. Qwen2.5-Coder scale trends | `replication/figures/figures_q1_redesign/fig4_qwen_scaling.svg` | `replication/results/paper_experiment_metrics_all.csv`; `replication/figure_source/redraw_q1_figures.py` |
+| Figure 3. Structured prompt ablation | `replication/figures/figures_q1_redesign/fig5_prompt_ablation.svg` | `replication/results/prompt_ablation.csv`; `replication/figure_source/redraw_q1_figures.py` |
+| Figure 4. Candidate-hit versus exact line localization boundary | `replication/figures/figures_q1_redesign/fig8_line_boundary.svg` | `replication/results/vul_line_metrics.csv`; `replication/figure_source/redraw_q1_figures.py` |
+| Figure 5. Runtime-performance Pareto trade-off | `replication/figures/figures_q1_redesign/fig9_runtime_tradeoff.svg` | `replication/results/all_result_metrics.csv`; `replication/figure_source/redraw_q1_figures.py` |
+
+## Current Manuscript Result Anchors
+
+| Result Claim | Value / Scope | Supporting Files |
+|---|---|---|
+| Formal matrix size | 226 evaluation units: 63 direct, 63 prompt, 63 QLoRA, and 37 full fine-tuning units | `replication/results/paper_experiment_matrix_closure.csv`; `replication/results/paper_experiment_metrics_all.csv` |
+| Model coverage | 25 models from 8 model families | `replication/results/model_summary.csv`; `replication/experiment_configs/formal_experiment_execution_plan.md` |
+| Best vulnerability-presence result | F1 = 0.8757 with Qwen2.5-Coder-1.5B full fine-tuning | `replication/results/has_vul_metrics.csv`; `replication/results/paper_experiment_metrics_all.csv` |
+| Best vulnerability-type results | standard F1 = 0.6265; macro-F1 = 0.4755; multi-label F1 = 0.4300 | `replication/results/vul_type_metrics.csv`; `replication/results/paper_experiment_metrics_all.csv` |
+| Best vulnerable-line results | strict-F1 = 0.2955; contract-hit = 0.8451 | `replication/results/vul_line_metrics.csv`; `replication/results/paper_experiment_metrics_all.csv` |
+| Prompt ablation scope | 16 comparisons: 2 Qwen2.5-Coder models x 2 tasks x 4 prompt settings | `replication/results/prompt_ablation.csv`; `supplementary/tables/Table_S9.csv` |
+| Dataset expansion analysis | 6 same-model, same-task, same-method before/after pairs | `replication/results/data_completion_pairs.csv`; `supplementary/tables/Table_S10.csv` |
 
 ## How to Use
 
