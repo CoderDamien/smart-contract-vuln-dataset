@@ -2,307 +2,307 @@
   "file_count": 61,
   "files": [
     {
-      "path": "replication/data_splits/balanced_stage1_resplit_721/build_report.json",
-      "size_bytes": 5727,
-      "sha256": "e2a4b22716d4330f8e9a3ed90f43cf5b3a20084024f4ffa0efd25967ddf06fa6"
+      "path": "data_splits/balanced_stage1_resplit_721/build_report.json",
+      "size_bytes": 5469,
+      "sha256": "8f34e3d6f96c716c47712a4c5c8694ccbbce546fb3828a71681108dcf8006d9a"
     },
     {
-      "path": "replication/data_splits/balanced_stage1_resplit_721/split_file_index.csv",
-      "size_bytes": 1909,
-      "sha256": "27fad04f095c1530e41efd1a7e7a7db34fcf10a4b114cc4eb304d9423b011028"
+      "path": "data_splits/balanced_stage1_resplit_721/split_file_index.csv",
+      "size_bytes": 1912,
+      "sha256": "93827f7e5eee21c34819df0d9de12066f9a0180bfe9d322831fcae684d86b281"
     },
     {
-      "path": "replication/evaluation/metrics_vul_line.py",
+      "path": "evaluation/metrics_vul_line.py",
       "size_bytes": 3981,
       "sha256": "7588f62d282e8af838a4e74e57e8b17671db14e6cb31de9ecb492370d5597df1"
     },
     {
-      "path": "replication/evaluation/prompts/parsers.py",
+      "path": "evaluation/prompts/parsers.py",
       "size_bytes": 7314,
       "sha256": "82e7b678c25b614cd22b06fe0261dce0a82f76f90c366d9eed95c55429b2c11e"
     },
     {
-      "path": "replication/evaluation/prompts/templates.py",
+      "path": "evaluation/prompts/templates.py",
       "size_bytes": 8568,
       "sha256": "a4d2f5f2a378fe77a00a21dc3db9fdf427dc20f9e0a335df120a297a61ba9c1f"
     },
     {
-      "path": "replication/evaluation/tasks/has_vul.py",
+      "path": "evaluation/tasks/has_vul.py",
       "size_bytes": 858,
       "sha256": "adcd7480e7ca4ee5829521542d637a4fd193e2dd6be3ea5f368c7d30c0f0e1bb"
     },
     {
-      "path": "replication/evaluation/tasks/vul_line.py",
+      "path": "evaluation/tasks/vul_line.py",
       "size_bytes": 5379,
       "sha256": "c87550a728d20df6a568bde0f5e4e7b1aba563a2e6e7810a1bed820a2b7ccaaf"
     },
     {
-      "path": "replication/evaluation/tasks/vul_type.py",
+      "path": "evaluation/tasks/vul_type.py",
       "size_bytes": 5305,
       "sha256": "3a170aa3e214994d163d3ae5d72681fb7008c0899ed714ce012050426f1c1a7c"
     },
     {
-      "path": "replication/experiment_configs/enrich_matrix_runtime.py",
+      "path": "experiment_configs/enrich_matrix_runtime.py",
       "size_bytes": 3485,
       "sha256": "c02ba1230746a414cfa7578c48c6fa0003f30bc587b72d8fdaafa41166fa5cd3"
     },
     {
-      "path": "replication/experiment_configs/formal_experiment_execution_plan.md",
-      "size_bytes": 11999,
-      "sha256": "282fe2aac5b027aa0fd2941b9c40ccff2f73831b9ffdd6bf6525d152885ab9c7"
+      "path": "experiment_configs/formal_experiment_execution_plan.md",
+      "size_bytes": 12288,
+      "sha256": "0c50becbe99c74bf2c430f3776b50c0d9dad407c59c7ef93134b5ca4fd11abfe"
     },
     {
-      "path": "replication/experiment_configs/project_configs/dataset_import_manifest.json",
+      "path": "experiment_configs/project_configs/dataset_import_manifest.json",
       "size_bytes": 4245,
       "sha256": "6ed104909500992c900003306f4fdd40661e2320a70a0857c37199b3a7d1201b"
     },
     {
-      "path": "replication/experiment_configs/project_configs/dataset_label_mapping_draft.json",
+      "path": "experiment_configs/project_configs/dataset_label_mapping_draft.json",
       "size_bytes": 4023,
       "sha256": "8c3bbf1feb85ed367bc3fad437039a5d445a895353818a1236e0c42ced8381eb"
     },
     {
-      "path": "replication/experiment_configs/project_configs/front_running_round2_rules.json",
+      "path": "experiment_configs/project_configs/front_running_round2_rules.json",
       "size_bytes": 1550,
       "sha256": "551189c35ffccf21c895def0b7821594e33436508e5dcdc7c7fc93becb94d763"
     },
     {
-      "path": "replication/experiment_configs/project_configs/low_frequency_labeling_rules.json",
+      "path": "experiment_configs/project_configs/low_frequency_labeling_rules.json",
       "size_bytes": 1859,
       "sha256": "129ba1592466df74ee4364c523813aaa7092c83662e804adf374dfc752d60524"
     },
     {
-      "path": "replication/experiment_configs/run_configs_bundle.jsonl",
+      "path": "experiment_configs/run_configs_bundle.jsonl",
       "size_bytes": 298229,
       "sha256": "4bd8a7c4affb3464b1b27a5dce73777dc27facb2e991a3cec2b17f50d8d34ae6"
     },
     {
-      "path": "replication/experiment_configs/run_configs_index.csv",
+      "path": "experiment_configs/run_configs_index.csv",
       "size_bytes": 78895,
       "sha256": "242ebb1d6e25b693887cef1cc47b9901d442a6c83904d987afa20904493504c0"
     },
     {
-      "path": "replication/experiment_configs/run_formal_balanced721_queue.sh",
+      "path": "experiment_configs/run_formal_balanced721_queue.sh",
       "size_bytes": 3330,
       "sha256": "fc745bc4da8a4a89239c2d4a65b4e57e7631c0707ab6b4619f69c1cd0942db47"
     },
     {
-      "path": "replication/figure_source/generate_q1_paper_assets.py",
+      "path": "figure_source/generate_q1_paper_assets.py",
       "size_bytes": 65002,
       "sha256": "98429b570f5f815783c3ac5b6d5baf56226bb293ab9b489dd2341c0857de9806"
     },
     {
-      "path": "replication/figure_source/redraw_q1_figures.py",
-      "size_bytes": 28959,
-      "sha256": "bf2fe8fc581d2532babc58327801f28c27447e7eb47d3e72b41a8294a542580f"
+      "path": "figure_source/redraw_q1_figures.py",
+      "size_bytes": 29553,
+      "sha256": "9183e1244566985f2389a4af70e34f47307374cc17f8e2f095d7f1d2155dacea"
     },
     {
-      "path": "replication/figures/figures_q1/fig1_framework.svg",
+      "path": "figures/figures_q1/fig1_framework.svg",
       "size_bytes": 4747,
       "sha256": "fd9b33b3be5db283f9aa391104ae99a67ede823ab6ed16f6dba73704c3e44a88"
     },
     {
-      "path": "replication/figures/figures_q1/fig2_method_performance.svg",
+      "path": "figures/figures_q1/fig2_method_performance.svg",
       "size_bytes": 5697,
       "sha256": "3030cae7b840ad46feef4f5e9a4955229e33ed617626a93e7aae9588797bcaf5"
     },
     {
-      "path": "replication/figures/figures_q1/fig3_mode_radar.svg",
+      "path": "figures/figures_q1/fig3_mode_radar.svg",
       "size_bytes": 4543,
       "sha256": "d794233c2bc5b440230ce905cd4c3b847f67e7518df2e28230a51be86e626163"
     },
     {
-      "path": "replication/figures/figures_q1/fig4_qwen_scaling.svg",
+      "path": "figures/figures_q1/fig4_qwen_scaling.svg",
       "size_bytes": 12501,
       "sha256": "8d029a82315093fd73421c134498c3eae22bda104c0069e24e307d16adab9eb2"
     },
     {
-      "path": "replication/figures/figures_q1/fig5_prompt_ablation.svg",
+      "path": "figures/figures_q1/fig5_prompt_ablation.svg",
       "size_bytes": 4633,
       "sha256": "e793bbdb23321939159c4854ee1ba3f55a510f57a66f9b7ce2f4acf947122f04"
     },
     {
-      "path": "replication/figures/figures_q1/fig6_data_completion_slope.svg",
+      "path": "figures/figures_q1/fig6_data_completion_slope.svg",
       "size_bytes": 4702,
       "sha256": "447ba67c2e1a96581edcc7c5252d821ebc29d88451c29a1c76879b753f1290b0"
     },
     {
-      "path": "replication/figures/figures_q1/fig7_line_boundary_scatter.svg",
+      "path": "figures/figures_q1/fig7_line_boundary_scatter.svg",
       "size_bytes": 12219,
       "sha256": "8c1699a5c01b74e8de4b639c236cb8c2cc7a12482405f3cc4761f8daf0a73a22"
     },
     {
-      "path": "replication/figures/figures_q1/fig8_family_mode_heatmap.svg",
+      "path": "figures/figures_q1/fig8_family_mode_heatmap.svg",
       "size_bytes": 10101,
       "sha256": "c3741549ba29ae2b1a184a23165c00f35519857385291c9aa4cd25e4422b9eae"
     },
     {
-      "path": "replication/figures/figures_q1/fig9_literature_anchor.svg",
+      "path": "figures/figures_q1/fig9_literature_anchor.svg",
       "size_bytes": 4038,
       "sha256": "b2445ee5200b1cfcd4129c193d45b4cbaf28c14a60ff642dad335fa93be2d39e"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig1_protocol.svg",
+      "path": "figures/figures_q1_redesign/fig1_protocol.svg",
       "size_bytes": 6281,
       "sha256": "c7ddc2c01182111c7f1166b84c683fd968e6144b857ffbbb658a75c7b256db66"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig2_task_hierarchy.svg",
+      "path": "figures/figures_q1_redesign/fig2_task_hierarchy.svg",
       "size_bytes": 7086,
       "sha256": "5b42dc61b5a3a9482509651c6bbf171cda3f06b2c953b294750560ebdcdbc683"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig3_method_deltas.svg",
+      "path": "figures/figures_q1_redesign/fig3_method_deltas.svg",
       "size_bytes": 8973,
       "sha256": "8391261886eff19c2855381f60ffe3d72e808723dc1664a09e97aa0799f75018"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig4_qwen_scaling.svg",
+      "path": "figures/figures_q1_redesign/fig4_qwen_scaling.svg",
       "size_bytes": 16250,
       "sha256": "ecac841c283b65ff677d5a2b66c925fa0850992d38e6effd36098264d323b385"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig5_prompt_ablation.svg",
+      "path": "figures/figures_q1_redesign/fig5_prompt_ablation.svg",
       "size_bytes": 11945,
       "sha256": "d7c148fd46cf18c13f9efced9bb5380da08ea2674be3833e55f073342abd94e3"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig6_data_completion.svg",
+      "path": "figures/figures_q1_redesign/fig6_data_completion.svg",
       "size_bytes": 6691,
       "sha256": "20524a38a6839713793ce55407f1fc2ce211407b00fa88ebb1ca683c7a60cc8e"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig7_family_task_mode_heatmap.svg",
+      "path": "figures/figures_q1_redesign/fig7_family_task_mode_heatmap.svg",
       "size_bytes": 26602,
       "sha256": "e30538228a10977e3eb71f0ea912b6c94b8bfa8c6a59cc15b063cffe016eccb3"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig7_line_boundary.svg",
+      "path": "figures/figures_q1_redesign/fig7_line_boundary.svg",
       "size_bytes": 13416,
       "sha256": "e6e73519ddad1c854bcc50cce178acc4aa7bbb46bbe97842f8b5d747bf603168"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig8_family_task_mode_heatmap.svg",
+      "path": "figures/figures_q1_redesign/fig8_family_task_mode_heatmap.svg",
       "size_bytes": 26602,
       "sha256": "e30538228a10977e3eb71f0ea912b6c94b8bfa8c6a59cc15b063cffe016eccb3"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig8_line_boundary.svg",
+      "path": "figures/figures_q1_redesign/fig8_line_boundary.svg",
       "size_bytes": 13416,
       "sha256": "e6e73519ddad1c854bcc50cce178acc4aa7bbb46bbe97842f8b5d747bf603168"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/fig9_runtime_tradeoff.svg",
+      "path": "figures/figures_q1_redesign/fig9_runtime_tradeoff.svg",
       "size_bytes": 28488,
       "sha256": "ac282b6a9a894d552415c41fd89d0270e1fcd650295a1c9660afe35243557f1a"
     },
     {
-      "path": "replication/figures/figures_q1_redesign/figure_redesign_notes.md",
+      "path": "figures/figures_q1_redesign/figure_redesign_notes.md",
       "size_bytes": 1042,
       "sha256": "0bd2ff877960855406be28acb24a1fbe88f3787110121a7fe23cd91ee1917ec1"
     },
     {
-      "path": "replication/label_mapping/dataset_label_mapping_draft.json",
+      "path": "label_mapping/dataset_label_mapping_draft.json",
       "size_bytes": 4023,
       "sha256": "8c3bbf1feb85ed367bc3fad437039a5d445a895353818a1236e0c42ced8381eb"
     },
     {
-      "path": "replication/label_mapping/paper_label_space.json",
+      "path": "label_mapping/paper_label_space.json",
       "size_bytes": 465,
       "sha256": "d1058b1ee859872aa18a61c59b3557dafaa6216a94b8acbaed598b11d0db4afd"
     },
     {
-      "path": "replication/prediction_summaries/prediction_artifact_index.csv",
+      "path": "prediction_summaries/prediction_artifact_index.csv",
       "size_bytes": 109765,
       "sha256": "34f6496f91b316bea2062d4ed2027b55116dfdbc96d1bc541aeb4762bd44b1e1"
     },
     {
-      "path": "replication/prediction_summaries/prediction_artifact_index.json",
+      "path": "prediction_summaries/prediction_artifact_index.json",
       "size_bytes": 188435,
       "sha256": "867d72b949bfd6f2c4801fccb4569864d4f00ba8ec6452e89ece7fb1a87de5a3"
     },
     {
-      "path": "replication/README.md",
-      "size_bytes": 8173,
-      "sha256": "ed508599d1c8031344ba4aea32d287b6404c3c2609e6ea1b6d9105507e898a66"
+      "path": "README.md",
+      "size_bytes": 8205,
+      "sha256": "7aa293efee298cb2618009144114e325e1e9feb575ea011b8009c689505f665b"
     },
     {
-      "path": "replication/README.zh-CN.md",
-      "size_bytes": 7560,
-      "sha256": "560ce7473685fcae41317105f1248d46cf7cbffe695aa13f8f2d7f7d7161c5c8"
+      "path": "README.zh-CN.md",
+      "size_bytes": 7630,
+      "sha256": "159875748dd44af976312edcb00a491e4f325725a0e33ea6bbcbc227ee211b50"
     },
     {
-      "path": "replication/results/all_result_metrics.csv",
+      "path": "results/all_result_metrics.csv",
       "size_bytes": 213240,
       "sha256": "b50c059077643561c216fa02e63c8f6e078c62323bbf323f652f37df3faf852f"
     },
     {
-      "path": "replication/results/data_completion_before_after.csv",
+      "path": "results/data_completion_before_after.csv",
       "size_bytes": 9602,
       "sha256": "4230fc87e012ee98cec9ad5ae7d519045222e1a9c54bc7f3b6d0b62cf37ba802"
     },
     {
-      "path": "replication/results/data_completion_pairs.csv",
+      "path": "results/data_completion_pairs.csv",
       "size_bytes": 1819,
       "sha256": "3a6b2af619ae616a91220fc6fdc22fcdb6feca7365d07b4740591f575d26db83"
     },
     {
-      "path": "replication/results/has_vul_metrics.csv",
+      "path": "results/has_vul_metrics.csv",
       "size_bytes": 42827,
       "sha256": "30745e49b4ab62b58e68afec89adac035d3fd7bbfbd1ddcb5083252bd8cab699"
     },
     {
-      "path": "replication/results/local_completed_results_tables.md",
+      "path": "results/local_completed_results_tables.md",
       "size_bytes": 10200,
       "sha256": "f50e022da467a812ffbba2220611ddb84c119dee3bdf1fa118e4c135b600e38f"
     },
     {
-      "path": "replication/results/model_summary.csv",
+      "path": "results/model_summary.csv",
       "size_bytes": 2285,
       "sha256": "6c111d89d29598d5614b4c402b4794121c835b4dc5fa9cba8b56d9b4927482e5"
     },
     {
-      "path": "replication/results/paper_experiment_closure_summary.csv",
+      "path": "results/paper_experiment_closure_summary.csv",
       "size_bytes": 1034,
       "sha256": "657a27eee3d34e8c1999ef047baebd105977d86c09c9006305af70075df81750"
     },
     {
-      "path": "replication/results/paper_experiment_matrix_closure.csv",
+      "path": "results/paper_experiment_matrix_closure.csv",
       "size_bytes": 123544,
       "sha256": "31d68b9f7ae23da1779c9c59299a929479b0647e7dde4151ee3244fa9de9c58f"
     },
     {
-      "path": "replication/results/paper_experiment_metrics_all.csv",
+      "path": "results/paper_experiment_metrics_all.csv",
       "size_bytes": 103478,
       "sha256": "c30d6802b15a5f1ebf2cf866fec04e25428e6632c71a8021f57a145048c7514f"
     },
     {
-      "path": "replication/results/paper_experiment_results.xlsx",
+      "path": "results/paper_experiment_results.xlsx",
       "size_bytes": 290472,
       "sha256": "dcf73ccdbfede3b5123dc4bcbf4d4e8e182c197cb9ab2c3aab2dc78279d5c898"
     },
     {
-      "path": "replication/results/planned_matrix.csv",
+      "path": "results/planned_matrix.csv",
       "size_bytes": 5123,
       "sha256": "255da9e6818e321b5b0a059bf4f0ec64c78f41c2cbf26e3c89593fbc8c19659a"
     },
     {
-      "path": "replication/results/prompt_ablation.csv",
+      "path": "results/prompt_ablation.csv",
       "size_bytes": 12058,
       "sha256": "0322e65b00285fde80c472eb555037861ad64325b0eb2678d320f4c04343f58f"
     },
     {
-      "path": "replication/results/run_closure_audit.csv",
+      "path": "results/run_closure_audit.csv",
       "size_bytes": 74510,
       "sha256": "e9d02f8d6267562b5a9dd1a2a6d87ee4a0dc682ba09e147a09239de3f1d0d7c6"
     },
     {
-      "path": "replication/results/vul_line_metrics.csv",
+      "path": "results/vul_line_metrics.csv",
       "size_bytes": 60416,
       "sha256": "f7f67c4af579b1d4c5c9e983bd9a090b48a7f91cbcd4a5d515120851bcbada08"
     },
     {
-      "path": "replication/results/vul_type_metrics.csv",
+      "path": "results/vul_type_metrics.csv",
       "size_bytes": 69912,
       "sha256": "3075c28880225094679522ff9979c5c192294e47475cc9a7b401a90700d5fad9"
     }

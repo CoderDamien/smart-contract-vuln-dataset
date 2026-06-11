@@ -4,8 +4,8 @@
 
 This dataset supports smart contract vulnerability detection, vulnerability type classification, and vulnerable line localization for Solidity and Ethereum smart contracts. It is designed for blockchain security research, Web3 security analysis, static-analysis comparison, and LLM-based code security evaluation.
 
-Current release version: `v1.0.2`.
-Line-coordinate schema revision: `v1.0.2`.
+Current release version: `v1.0.3`.
+Line-coordinate schema revision: `v1.0.3`.
 This release includes the manuscript-aligned replication package and the vulnerable-line coordinate schema revision.
 
 ## Search Keywords
@@ -18,7 +18,7 @@ smart contract vulnerability dataset, Solidity security dataset, Ethereum smart 
 - Multi-label vulnerability type classification: `vul_type`
 - Multi-line vulnerable line localization: `vul_line`
 
-For `vul_line`, line labels are 1-based line numbers relative to the released `context` field unless `source_line` is explicitly provided.
+For `vul_line`, line labels are 1-based line numbers relative to the released `context` field unless `source_line` is explicitly provided. In `v1.0.3`, processed vulnerable-line annotations include `source_line`/`source_line_end` plus `source_mapping_method` when source coordinates can be reconstructed from raw source metadata or full-context identity mapping.
 
 ## Labels
 
@@ -91,7 +91,7 @@ Raw upstream data is not redistributed. See [metadata/upstream_license_review.md
   title  = {Smart Contract Vulnerability Dataset for Solidity and Ethereum Security},
   author = {Xu, Daming},
   year   = {2026},
-  version = {v1.0.2},
+  version = {v1.0.3},
   publisher = {GitHub},
   url    = {https://github.com/CoderDamien/smart-contract-vuln-dataset}
 }

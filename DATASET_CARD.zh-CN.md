@@ -4,8 +4,8 @@
 
 本数据集支持 Solidity 与以太坊智能合约的漏洞存在性判断、漏洞类型分类和漏洞行定位，可用于区块链安全研究、Web3 安全分析、静态分析工具比较和大语言模型代码安全评测。
 
-当前发布版本：`v1.0.2`。
-行号坐标系 schema 修订版本：`v1.0.2`。
+当前发布版本：`v1.0.3`。
+行号坐标系 schema 修订版本：`v1.0.3`。
 本版本同时包含与当前论文对齐的复现包，以及漏洞行号坐标系 schema 修订。
 
 ## 搜索关键词
@@ -18,7 +18,7 @@
 - 多标签漏洞类型分类：`vul_type`
 - 多行漏洞定位：`vul_line`
 
-对于 `vul_line`，除非显式提供 `source_line`，否则行级标签均为相对于已发布 `context` 字段的 1-based 行号。
+对于 `vul_line`，除非显式提供 `source_line`，否则行级标签均为相对于已发布 `context` 字段的 1-based 行号。在 `v1.0.3` 中，processed 漏洞行标注已在可通过原始来源元数据或完整 context identity mapping 还原时提供 `source_line`/`source_line_end`，并通过 `source_mapping_method` 说明映射依据。
 
 ## 标签空间
 

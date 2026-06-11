@@ -5,7 +5,7 @@ authors:
   - family-names: "Xu"
     given-names: "Daming"
 year: 2026
-version: "v1.0.2"
+version: "v1.0.3"
 date-released: "2026-06-12"
 repository-code: "https://github.com/CoderDamien/smart-contract-vuln-dataset"
 url: "https://github.com/CoderDamien/smart-contract-vuln-dataset"

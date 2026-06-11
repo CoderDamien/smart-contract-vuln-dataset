@@ -37,6 +37,7 @@ This document describes the unified sample schema used by the dataset.
 | `raw_loc` | integer or null | no | Source-provided raw location value, when available. For SolidiFI, this corresponds to the bug-log `loc` field. |
 | `raw_length` | integer or null | no | Source-provided raw vulnerable range length, when available. |
 | `source_mapping_status` | string or null | no | `available` when `source_line` can be reconstructed; `unavailable` when only context-relative labels are released. |
+| `source_mapping_method` | string or null | no | Mapping basis for `source_line`, such as `raw_loc_minus_context_start`, `context_start_line_offset`, `full_context_identity_by_source_dataset`, `legacy_full_context_identity`, or `unattributed_full_context_identity`. |
 | `source_taxonomy` | string or null | no | Original source taxonomy, such as DASP, SWC, SolidiFI bug type, or Slither detector. |
 | `source_label` | string or null | no | Original source label before normalization. |
 | `evidence` | list[string] | yes | Optional evidence snippets or notes. |
@@ -94,6 +95,7 @@ Line labels are 1-based line numbers relative to the released `context` field un
       "raw_loc": null,
       "raw_length": null,
       "source_mapping_status": "available",
+      "source_mapping_method": "context_start_line_offset",
       "source_taxonomy": "SolidiFI",
       "source_label": "Re-entrancy",
       "evidence": [],

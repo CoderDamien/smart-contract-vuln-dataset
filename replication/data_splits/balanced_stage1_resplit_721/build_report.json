@@ -188,11 +188,5 @@
         }
       }
     }
-  ],
-  "schema_revision": {
-    "version": "v1.0.2",
-    "line_coordinate_system": "context_relative_1based",
-    "line_scope": "context",
-    "note": "vul_line vulnerabilities[].line is a 1-based line number relative to the released context field."
-  }
+  ]
 }

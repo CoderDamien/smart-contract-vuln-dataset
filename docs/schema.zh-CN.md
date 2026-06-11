@@ -37,6 +37,7 @@
 | `raw_loc` | integer/null | 否 | 来源数据提供的原始位置值；例如 SolidiFI 的 bug log `loc` 字段。 |
 | `raw_length` | integer/null | 否 | 来源数据提供的原始漏洞范围长度。 |
 | `source_mapping_status` | string/null | 否 | `available` 表示可还原 `source_line`；`unavailable` 表示当前只发布 context-relative 行号。 |
+| `source_mapping_method` | string/null | 否 | `source_line` 的映射依据，例如 `raw_loc_minus_context_start`、`context_start_line_offset`、`full_context_identity_by_source_dataset`、`legacy_full_context_identity` 或 `unattributed_full_context_identity`。 |
 | `source_taxonomy` | string/null | 否 | 原始标签体系，例如 DASP、SWC、SolidiFI 或 Slither。 |
 | `source_label` | string/null | 否 | 映射前的原始标签。 |
 | `evidence` | list[string] | 是 | 证据或备注。 |

@@ -4,8 +4,8 @@ A large-scale Solidity smart contract vulnerability dataset for Ethereum securit
 
 Repository name: `smart-contract-vuln-dataset`.
 
-Current release version: `v1.0.2`.
-Line-coordinate schema revision: `v1.0.2`.
+Current release version: `v1.0.3`.
+Line-coordinate schema revision: `v1.0.3`.
 This release includes the manuscript-aligned replication package and the vulnerable-line coordinate schema revision.
 Release metadata: [metadata/release_metadata.json](metadata/release_metadata.json).
 Archive checksums: [metadata/archive_checksums.csv](metadata/archive_checksums.csv).
@@ -99,7 +99,7 @@ The dataset supports three tasks:
 | `vul_type` | Vulnerability Type Classification | Multi-label classification over normalized vulnerability categories. |
 | `vul_line` | Vulnerable Line Localization | Multi-line prediction of one or more vulnerable context lines. |
 
-For `vul_line`, `vulnerabilities[].line` and `vulnerabilities[].line_end` are 1-based line numbers relative to the released `context` field. They are not necessarily original source-file line numbers. When recoverable, original source-file coordinates are provided through `source_line` and `source_line_end`; otherwise `source_mapping_status` is `unavailable`.
+For `vul_line`, `vulnerabilities[].line` and `vulnerabilities[].line_end` are 1-based line numbers relative to the released `context` field. They are not necessarily original source-file line numbers. Original source-file coordinates are provided through `source_line` and `source_line_end` when they can be reconstructed from source metadata or from a full-context identity mapping. The `source_mapping_method` field records the mapping basis.
 
 ## Dataset Statistics
 
@@ -273,6 +273,7 @@ Each normalized sample follows a unified schema:
       "raw_length": null,
       "line_scope": "context",
       "source_mapping_status": "available",
+      "source_mapping_method": "full_context_identity_by_source_dataset",
       "source_taxonomy": "source taxonomy name",
       "source_label": "original source label",
       "evidence": [],
@@ -297,7 +298,7 @@ Download or clone the repository with Git LFS enabled, then extract the processe
 git lfs install
 git clone https://github.com/CoderDamien/smart-contract-vuln-dataset.git
 cd smart-contract-vuln-dataset
-git checkout v1.0.2
+git checkout v1.0.3
 git lfs pull
 tar -xzf data/processed/balanced_stage1_resplit_721.tar.gz -C data/processed/
 tar -xzf data/merged/has_vul_merged_stage0.tar.gz -C data/merged/
@@ -342,7 +343,7 @@ If you use this dataset, please cite the dataset repository and the related pape
   title  = {Smart Contract Vulnerability Dataset for Solidity and Ethereum Security},
   author = {Xu, Daming},
   year   = {2026},
-  version = {v1.0.2},
+  version = {v1.0.3},
   publisher = {GitHub},
   url    = {https://github.com/CoderDamien/smart-contract-vuln-dataset}
 }
