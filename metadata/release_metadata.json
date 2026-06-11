@@ -1,12 +1,11 @@
 {
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "repository": "https://github.com/CoderDamien/smart-contract-vuln-dataset",
-  "initial_data_release": "v1.0.0",
   "source_commit_audited_before_release": "6639cdd3f12a6bab308849434e3eab7e06897eda",
   "doi": null,
   "doi_status": "pending Zenodo archival after GitHub release",
-  "release_date": "2026-06-03",
-  "release_type": "manuscript-aligned metadata, replication, supplement, and figure-reference update",
+  "release_date": "2026-06-12",
+  "release_type": "schema and metadata revision for vulnerable-line coordinate semantics",
   "manuscript_alignment": {
     "target": "IST manuscript version dated 2026-06-03",
     "formal_evaluation_units": 226,
@@ -30,8 +29,8 @@
   "availability_note": "Raw upstream data is not redistributed. Processed data, metadata, evaluation scripts, aggregate metrics, and artifact summaries are released with checksums.",
   "archive_checksums": {
     "data/processed/balanced_stage1_resplit_721.tar.gz": {
-      "size_bytes": 223783314,
-      "sha256": "83242414044a68a44222c06f3969efabae37a2deedb79ff15f0ac40636b4e528"
+      "size_bytes": 220229104,
+      "sha256": "d470988cf44601fa1f93a6b97a72b341f6d5760cf3acd48415a338cad4780fda"
     },
     "data/merged/has_vul_merged_stage0.tar.gz": {
       "size_bytes": 634175940,
@@ -42,8 +41,14 @@
       "sha256": "e65b1e4c2b89d54b52f9f92c31284d2f0c845b2e6c3cdc5de6f4aa373ff71dec"
     },
     "data/merged/vul_line_merged_stage0.tar.gz": {
-      "size_bytes": 2632440,
-      "sha256": "f283259411d138b9a6b08d4861d71b04b81aaaa042af62659b066d63cbac2a90"
+      "size_bytes": 3004431,
+      "sha256": "2f47c232cd53d33cbf078af18f9e2fba9277db07d0cda41e24b5ab6caa478530"
     }
+  },
+  "line_coordinate_revision": {
+    "line_coordinate_system": "context_relative_1based",
+    "line_scope": "context",
+    "backward_compatible_line_field": true,
+    "note": "vulnerabilities[].line is retained as the context-relative 1-based line number. source_line is provided when recoverable."
   }
 }

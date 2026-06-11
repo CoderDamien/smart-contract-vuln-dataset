@@ -17,13 +17,13 @@ This directory contains publicly downloadable dataset archives.
 |---|---:|---:|---|
 | `merged/has_vul_merged_stage0.tar.gz` | 604.8 MiB | 105,278 | Binary vulnerability detection merged pool. |
 | `merged/vul_type_merged_stage0.tar.gz` | 568.3 MiB | 95,573 | Vulnerability type classification merged pool. |
-| `merged/vul_line_merged_stage0.tar.gz` | 2.5 MiB | 24,178 | Vulnerable line localization merged pool. |
+| `merged/vul_line_merged_stage0.tar.gz` | 2.9 MiB | 24,178 | Vulnerable line localization merged pool with context-relative line-coordinate metadata. |
 
 ## Processed Benchmark Archive
 
 | File | Size | Content |
 |---|---:|---|
-| `processed/balanced_stage1_resplit_721.tar.gz` | 213.4 MiB | Recommended task-specific train/validation/test splits for `has_vul`, `vul_type`, and `vul_line`. |
+| `processed/balanced_stage1_resplit_721.tar.gz` | 210.0 MiB | Recommended task-specific train/validation/test splits for `has_vul`, `vul_type`, and `vul_line`, including line-coordinate metadata for `vul_line`. |
 
 The archive contains:
 
@@ -58,3 +58,4 @@ tar -xzf data/merged/vul_line_merged_stage0.tar.gz -C data/merged/
 - Raw upstream data is not redistributed.
 - Large merged intermediate JSON files are not included because several files exceed 3 GB each.
 - Source and license notes are documented in `metadata/upstream_license_review.md`.
+- For `vul_line`, `vulnerabilities[].line` and `line_end` are 1-based line numbers relative to the released `context` field. Original source-file coordinates are available through `source_line` and `source_line_end` only when recoverable.

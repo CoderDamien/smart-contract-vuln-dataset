@@ -27,12 +27,22 @@ This document describes the unified sample schema used by the dataset.
 | Field | Type | Required | Description |
 |---|---|---:|---|
 | `type` | string | yes | Normalized vulnerability type. |
-| `line` | integer or null | no | Start line of the vulnerability annotation, if available. |
-| `line_end` | integer or null | no | End line of the annotation, if available. |
+| `line` | integer or null | no | Backward-compatible vulnerable start line. For `vul_line`, this is a 1-based line number relative to the released `context` field, not necessarily the original source-file line. |
+| `line_end` | integer or null | no | End line of the annotation in the same coordinate system as `line`, if available. |
+| `line_coordinate_system` | string or null | no | Coordinate system for `line` and `line_end`. Current `vul_line` release uses `context_relative_1based`. |
+| `line_scope` | string or null | no | Scope of `line`; current value is `context`. |
+| `context_start_line` | integer or null | no | Original source-file line corresponding to `context[0]`, when recoverable. |
+| `source_line` | integer or null | no | Original source-file start line, when recoverable. |
+| `source_line_end` | integer or null | no | Original source-file end line, when recoverable. |
+| `raw_loc` | integer or null | no | Source-provided raw location value, when available. For SolidiFI, this corresponds to the bug-log `loc` field. |
+| `raw_length` | integer or null | no | Source-provided raw vulnerable range length, when available. |
+| `source_mapping_status` | string or null | no | `available` when `source_line` can be reconstructed; `unavailable` when only context-relative labels are released. |
 | `source_taxonomy` | string or null | no | Original source taxonomy, such as DASP, SWC, SolidiFI bug type, or Slither detector. |
 | `source_label` | string or null | no | Original source label before normalization. |
 | `evidence` | list[string] | yes | Optional evidence snippets or notes. |
 | `metadata` | object | yes | Additional annotation-level metadata. |
+
+Line labels are 1-based line numbers relative to the released `context` field unless `source_line` is explicitly provided. The original `vulnerabilities[].line` field is retained for backward compatibility.
 
 ## Label Confidence
 
@@ -76,6 +86,14 @@ This document describes the unified sample schema used by the dataset.
       "type": "reentrancy",
       "line": 3,
       "line_end": 3,
+      "line_coordinate_system": "context_relative_1based",
+      "line_scope": "context",
+      "context_start_line": 1,
+      "source_line": 3,
+      "source_line_end": 3,
+      "raw_loc": null,
+      "raw_length": null,
+      "source_mapping_status": "available",
       "source_taxonomy": "SolidiFI",
       "source_label": "Re-entrancy",
       "evidence": [],
@@ -89,4 +107,3 @@ This document describes the unified sample schema used by the dataset.
   "metadata": {}
 }
 ```
-

@@ -27,12 +27,22 @@
 | 字段 | 类型 | 必需 | 说明 |
 |---|---|---:|---|
 | `type` | string | 是 | 统一漏洞类型。 |
-| `line` | integer/null | 否 | 漏洞起始行号。 |
-| `line_end` | integer/null | 否 | 漏洞结束行号。 |
+| `line` | integer/null | 否 | 向后兼容的漏洞起始行。对于 `vul_line`，该字段是相对于已发布 `context` 字段的 1-based 行号，不一定是原始源码文件行号。 |
+| `line_end` | integer/null | 否 | 与 `line` 使用同一坐标系的漏洞结束行。 |
+| `line_coordinate_system` | string/null | 否 | `line` 与 `line_end` 的坐标系。当前 `vul_line` 发布版本使用 `context_relative_1based`。 |
+| `line_scope` | string/null | 否 | `line` 所属范围；当前值为 `context`。 |
+| `context_start_line` | integer/null | 否 | `context[0]` 对应的原始源码文件行号；仅在可还原时提供。 |
+| `source_line` | integer/null | 否 | 原始源码文件中的漏洞起始行；仅在可还原时提供。 |
+| `source_line_end` | integer/null | 否 | 原始源码文件中的漏洞结束行；仅在可还原时提供。 |
+| `raw_loc` | integer/null | 否 | 来源数据提供的原始位置值；例如 SolidiFI 的 bug log `loc` 字段。 |
+| `raw_length` | integer/null | 否 | 来源数据提供的原始漏洞范围长度。 |
+| `source_mapping_status` | string/null | 否 | `available` 表示可还原 `source_line`；`unavailable` 表示当前只发布 context-relative 行号。 |
 | `source_taxonomy` | string/null | 否 | 原始标签体系，例如 DASP、SWC、SolidiFI 或 Slither。 |
 | `source_label` | string/null | 否 | 映射前的原始标签。 |
 | `evidence` | list[string] | 是 | 证据或备注。 |
 | `metadata` | object | 是 | 标注级元数据。 |
+
+除非显式提供 `source_line`，否则行级标签均为相对于已发布 `context` 字段的 1-based 行号。原有 `vulnerabilities[].line` 字段保留，用于向后兼容。
 
 ## 置信度
 
@@ -42,4 +52,3 @@
 | `silver` | 结构化基准或源码支撑标签。 |
 | `bronze` | 弱标签、工具生成标签或候选标签。 |
 | `unknown` | 置信度未确定。 |
-

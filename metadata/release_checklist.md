@@ -18,7 +18,7 @@ Use this checklist before publishing the dataset repository.
 - [ ] Verify that processed train/validation/test splits do not leak duplicates across splits.
 - [ ] Verify that all line labels are in range.
 - [x] Verify that README statistics match released files.
-- [ ] Tag release version `v1.0.0` on GitHub after committing the release-preparation changes.
+- [ ] Tag the current release version on GitHub after committing the release-preparation changes.
 
 ## Recommended Before Public Release
 
@@ -27,4 +27,4 @@ Use this checklist before publishing the dataset repository.
 - [ ] Add a script that validates schema consistency.
 - [ ] Add a script that prints dataset statistics.
 - [ ] Add a model-agnostic baseline evaluation example.
-- [ ] Archive release `v1.0.0` on Zenodo to obtain a DOI, then update `CITATION.cff`, `README.md`, and `metadata/release_metadata.json`.
+- [ ] Archive the current release on Zenodo to obtain a DOI, then update `CITATION.cff`, `README.md`, and `metadata/release_metadata.json`.

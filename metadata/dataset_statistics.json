@@ -1,6 +1,6 @@
 {
   "release_draft": false,
-  "release_version": "v1.0.0",
+  "release_version": "v1.0.2",
   "statistics_source": "released archives under data/merged and data/processed/balanced_stage1_resplit_721",
   "merged": {
     "has_vul_merged_stage0": {
@@ -96,6 +96,6 @@
     "reentrancy",
     "time_manipulation",
     "unchecked_low_calls"
-  ]
+  ],
+  "line_coordinate_system": "context_relative_1based"
 }
-

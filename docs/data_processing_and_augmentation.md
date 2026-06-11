@@ -288,6 +288,9 @@ Smart Contract Sanctuary 主要用于源码恢复。
 - 剔除缺失行号、行号小于 1 或超过代码总行数的标签。
 - 将漏洞定位定义为多行预测任务，而不是单个浮点数回归任务。
 - 支持一对多或多对多的漏洞行匹配。
+- 已发布数据中的 `vulnerabilities[].line` 和 `line_end` 使用 `context_relative_1based` 坐标系，即相对于已发布 `context` 字段的 1-based 行号。
+- 仅当可以可靠还原时，原始源码文件行号通过 `source_line` 和 `source_line_end` 提供；否则 `source_mapping_status` 为 `unavailable`。
+- 第一篇论文当前按 representative vulnerable start line / vulnerable start-line evaluation 报告结果；`line_end` 和 `source_line_end` 保留给后续 range-aware 评价。
 
 ## 低频类别补充
 

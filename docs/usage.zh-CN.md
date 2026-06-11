@@ -33,6 +33,8 @@ labels = [get_types(sample) for sample in samples]
 
 ## 漏洞行定位
 
+除非显式提供 `source_line`，否则行级标签均为相对于已发布 `context` 字段的 1-based 行号。向后兼容字段 `line` 因此应解释为 context-relative 行号。
+
 ```python
 def get_vulnerable_lines(sample):
     lines = set()
@@ -45,8 +47,20 @@ def get_vulnerable_lines(sample):
     return sorted(lines)
 ```
 
+如果需要查看可还原的原始源码文件行号，可优先读取 `source_line`：
+
+```python
+def get_source_lines(sample):
+    lines = []
+    for vuln in sample["vulnerabilities"]:
+        if vuln.get("source_mapping_status") == "available":
+            lines.append((vuln.get("source_line"), vuln.get("source_line_end")))
+    return lines
+```
+
 ## 评测建议
 
 - `has_vul`：accuracy、precision、recall、F1 和混淆矩阵。
 - `vul_type`：多标签 micro/macro precision、recall 和 F1。
 - `vul_line`：集合匹配、行级 precision/recall/F1、top-k 命中率等。
+- 第一篇论文当前报告的是 representative vulnerable start line / vulnerable start-line evaluation；`line_end` 与 `source_line_end` 保留给后续 range-aware 评价使用。

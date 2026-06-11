@@ -96,7 +96,7 @@ The current recommended public benchmark split is `balanced_stage1_resplit_721`.
 
 ### Vulnerable Line Localization
 
-`vul_line` is a multi-line localization task. A model prediction may contain one or more line numbers. Evaluation should use set-based or line-level metrics instead of single-value regression.
+`vul_line` is a multi-line localization task. A model prediction may contain one or more line numbers. Released line labels are 1-based line numbers relative to the `context` field unless `source_line` is explicitly provided. Evaluation should use set-based or line-level metrics instead of single-value regression. The first manuscript reports representative vulnerable start-line evaluation; range-aware evaluation using `line_end` is reserved for future versions.
 
 Recommended metrics include:
 
@@ -118,4 +118,3 @@ Before publishing a release, run audits for:
 - Source distribution per split.
 - Label distribution per split.
 - License and citation completeness.
-

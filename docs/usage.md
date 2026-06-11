@@ -33,6 +33,8 @@ labels = [get_types(sample) for sample in samples]
 
 ## Vulnerable Line Localization
 
+Line labels are 1-based line numbers relative to the released `context` field unless `source_line` is explicitly provided. The backward-compatible `line` field should therefore be interpreted as a context-relative line number.
+
 ```python
 def get_vulnerable_lines(sample):
     lines = set()
@@ -48,11 +50,23 @@ def get_vulnerable_lines(sample):
 line_labels = [get_vulnerable_lines(sample) for sample in samples]
 ```
 
+To inspect original source-file coordinates when they are recoverable:
+
+```python
+def get_source_lines(sample):
+    lines = []
+    for vuln in sample["vulnerabilities"]:
+        if vuln.get("source_mapping_status") == "available":
+            lines.append((vuln.get("source_line"), vuln.get("source_line_end")))
+    return lines
+```
+
 ## Recommended Evaluation Notes
 
 - For `has_vul`, use accuracy, precision, recall, F1, and confusion matrix.
 - For `vul_type`, use micro/macro precision, recall, and F1 for multi-label classification.
 - For `vul_line`, use set-based or line-level metrics. Do not evaluate it as a single floating-point regression task.
+- The first manuscript reports representative vulnerable start-line evaluation. `line_end` and `source_line_end` are retained for range-aware evaluation in future versions.
 
 ## Reproducibility Notes
 

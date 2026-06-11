@@ -17,13 +17,13 @@
 |---|---:|---:|---|
 | `merged/has_vul_merged_stage0.tar.gz` | 605 MB | 105,278 | 漏洞存在性判断合并池。 |
 | `merged/vul_type_merged_stage0.tar.gz` | 568 MB | 95,573 | 漏洞类型分类合并池。 |
-| `merged/vul_line_merged_stage0.tar.gz` | 2.5 MB | 24,178 | 漏洞行定位合并池。 |
+| `merged/vul_line_merged_stage0.tar.gz` | 2.9 MB | 24,178 | 漏洞行定位合并池，包含 context-relative 行号坐标元数据。 |
 
 ## 推荐 processed 数据包
 
 | 文件 | 大小 | 内容 |
 |---|---:|---|
-| `processed/balanced_stage1_resplit_721.tar.gz` | 213 MB | `has_vul`、`vul_type`、`vul_line` 三类任务的推荐训练集、验证集和测试集。 |
+| `processed/balanced_stage1_resplit_721.tar.gz` | 210 MB | `has_vul`、`vul_type`、`vul_line` 三类任务的推荐训练集、验证集和测试集；`vul_line` 包含行号坐标元数据。 |
 
 压缩包内容：
 
@@ -58,3 +58,4 @@ tar -xzf data/merged/vul_line_merged_stage0.tar.gz -C data/merged/
 - 本仓库不再分发原始 raw 数据。
 - merged 阶段的大型中间 JSON 暂未上传，因为多个文件单文件超过 3GB。
 - 来源与许可证说明见 `metadata/upstream_license_review.zh-CN.md`。
+- 对于 `vul_line`，`vulnerabilities[].line` 和 `line_end` 是相对于已发布 `context` 字段的 1-based 行号。仅当可还原时，原始源码文件行号才通过 `source_line` 和 `source_line_end` 提供。
